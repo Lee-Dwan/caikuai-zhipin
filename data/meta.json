@@ -1,22 +1,28 @@
 {
- "generated_at": "2026-11-27T13:45:29+08:00",
- "active_jobs": 1126,
+ "generated_at": "2026-11-27T14:10:40+08:00",
+ "active_jobs": 1128,
  "firm_count": 10,
  "today_new": 0,
  "covered_firms": [
-  "中汇",
-  "安永",
-  "大华",
-  "中审众环",
-  "信永中和",
-  "天健",
-  "天职国际",
   "立信",
   "容诚",
+  "信永中和",
+  "安永",
+  "天职国际",
+  "中审众环",
+  "中汇",
+  "天健",
+  "大华",
   "致同"
  ],
  "no_public_jobs": [],
- "failed_firms": [],
+ "failed_firms": [
+  {
+   "firm_id": "rongcheng",
+   "name": "容诚",
+   "error": "RuntimeError: HTTPSConnectionPool(host='careers.rccpa.com.cn', port=443): Max retries exceeded with url: /eRecruit/recruit/position/getIndexPositions?type=2&titleSite= (Caused by ConnectTimeoutError(<HTTPSConnection(host='careers.rccpa.com.cn', port=443) at 0x7d685fe17530>, 'Connection to careers.rccpa.com.cn timed out. (connect timeout=25)'))"
+  }
+ ],
  "firms_status": [
   {
    "firm_id": "zszh",
@@ -25,18 +31,18 @@
    "count": 22,
    "error": "",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 0.3
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 1.4
   },
   {
    "firm_id": "zhcpa",
    "name": "中汇",
    "status": "ok",
-   "count": 76,
+   "count": 77,
    "error": "",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 0.3
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 1.7
   },
   {
    "firm_id": "shinewing",
@@ -45,8 +51,8 @@
    "count": 218,
    "error": "",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 11.2
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 105.6
   },
   {
    "firm_id": "dahua",
@@ -55,8 +61,8 @@
    "count": 66,
    "error": "",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 0.2
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 2.0
   },
   {
    "firm_id": "tianjian",
@@ -65,8 +71,8 @@
    "count": 93,
    "error": "",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 0.4
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 3.2
   },
   {
    "firm_id": "tzcpa",
@@ -75,8 +81,8 @@
    "count": 320,
    "error": "",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 0.5
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 4.2
   },
   {
    "firm_id": "tianheng",
@@ -85,7 +91,7 @@
    "count": 0,
    "error": "",
    "note": "官网 join-us 栏目仅有校园招聘信息，暂无公开社招岗位",
-   "at": "2026-11-27T13:45:29+08:00"
+   "at": "2026-11-27T14:10:40+08:00"
   },
   {
    "firm_id": "ey",
@@ -94,18 +100,18 @@
    "count": 81,
    "error": "",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 26.7
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 82.8
   },
   {
    "firm_id": "rongcheng",
    "name": "容诚",
-   "status": "ok",
-   "count": 24,
-   "error": "",
+   "status": "failed",
+   "count": 0,
+   "error": "RuntimeError: HTTPSConnectionPool(host='careers.rccpa.com.cn', port=443): Max retries exceeded with url: /eRecruit/recruit/position/getIndexPositions?type=2&titleSite= (Caused by ConnectTimeoutError(<HTTPSConnection(host='careers.rccpa.com.cn', port=443) at 0x7d685fe17530>, 'Connection to careers.rccpa.com.cn timed out. (connect timeout=25)'))",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 0.3
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 160.2
   },
   {
    "firm_id": "deloitte",
@@ -114,7 +120,7 @@
    "count": 0,
    "error": "",
    "note": "官方招聘门户为 SuccessFactors/wecruit，需登录交互，未开放公开岗位列表接口",
-   "at": "2026-11-27T13:45:29+08:00"
+   "at": "2026-11-27T14:10:40+08:00"
   },
   {
    "firm_id": "pwc",
@@ -123,7 +129,7 @@
    "count": 0,
    "error": "",
    "note": "官网(Workday)存在频率限制，CX 接口持续返回 429，无法稳定自动采集；仅保留官网入口",
-   "at": "2026-11-27T13:45:29+08:00"
+   "at": "2026-11-27T14:10:40+08:00"
   },
   {
    "firm_id": "kpmg",
@@ -132,7 +138,7 @@
    "count": 0,
    "error": "",
    "note": "官网招聘页无岗位列表与公开接口（job-search 页面 404）",
-   "at": "2026-11-27T13:45:29+08:00"
+   "at": "2026-11-27T14:10:40+08:00"
   },
   {
    "firm_id": "bdo",
@@ -141,8 +147,8 @@
    "count": 178,
    "error": "",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 0.6
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 2.4
   },
   {
    "firm_id": "grantthornton",
@@ -151,8 +157,8 @@
    "count": 88,
    "error": "",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 0.4
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 2.1
   },
   {
    "firm_id": "suyajc",
@@ -161,15 +167,15 @@
    "count": 0,
    "error": "",
    "note": "官网仅有招聘简介与邮箱投递方式，无结构化岗位列表",
-   "at": "2026-11-27T13:45:29+08:00"
+   "at": "2026-11-27T14:10:40+08:00"
   }
  ],
  "baseline_at": "2026-11-27",
  "source_policy": "仅采集事务所官网/官方招聘系统公开发布的社招岗位",
  "collection": {
   "attempted": 10,
-  "succeeded": 10,
-  "success_rate": 100.0,
-  "at": "2026-11-27T13:45:29+08:00"
+  "succeeded": 9,
+  "success_rate": 90.0,
+  "at": "2026-11-27T14:10:40+08:00"
  }
 }

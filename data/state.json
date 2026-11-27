@@ -2339,7 +2339,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "cd5cb25a0592": {
    "id": "cd5cb25a0592",
@@ -2620,7 +2620,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "a2641ddf2e7f": {
    "id": "a2641ddf2e7f",
@@ -2648,7 +2648,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "0babd5bfac2d": {
    "id": "0babd5bfac2d",
@@ -2676,7 +2676,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "14dd79fedb32": {
    "id": "14dd79fedb32",
@@ -2930,7 +2930,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "59f34c3cbfc5": {
    "id": "59f34c3cbfc5",
@@ -3689,7 +3689,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "2b074ba29e46": {
    "id": "2b074ba29e46",
@@ -3717,7 +3717,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "83fd97fa4ee8": {
    "id": "83fd97fa4ee8",
@@ -3745,7 +3745,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "335603d676f4": {
    "id": "335603d676f4",
@@ -3773,7 +3773,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "97c35160c9b3": {
    "id": "97c35160c9b3",
@@ -3801,7 +3801,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "36a0325d4405": {
    "id": "36a0325d4405",
@@ -4703,7 +4703,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "0736ae4a74c4": {
    "id": "0736ae4a74c4",
@@ -5432,7 +5432,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "6b974cc9b3b3": {
    "id": "6b974cc9b3b3",
@@ -6216,7 +6216,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "9c73bbdc644d": {
    "id": "9c73bbdc644d",
@@ -8568,8 +8568,8 @@
    "homepage": "https://careers.ey.com/ey/search/?locationsearch=China",
    "first_seen": "2026-11-27",
    "last_seen": "2026-11-27",
-   "status": "closed",
-   "miss_count": 2,
+   "status": "active",
+   "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
    "updated_at": "2026-11-27T13:21:35+08:00",
    "closed_at": "2026-11-27"
@@ -9833,7 +9833,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "b9283a45f0a6": {
    "id": "b9283a45f0a6",
@@ -11041,7 +11041,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "6d79964e9ca8": {
    "id": "6d79964e9ca8",
@@ -13883,7 +13883,7 @@
    "province": "新疆",
    "category": "审计",
    "certs": [
-    "CPA"
+    "不限"
    ],
    "published_at": "2025-08-01",
    "url": "https://job.shinewing.com/job/detail?id=693",
@@ -13900,7 +13900,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "43d9980a3225": {
    "id": "43d9980a3225",
@@ -13995,7 +13995,7 @@
    "province": "湖北",
    "category": "审计",
    "certs": [
-    "CPA"
+    "不限"
    ],
    "published_at": "2026-09-01",
    "url": "https://job.shinewing.com/job/detail?id=80",
@@ -14012,7 +14012,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "e67c17a91e74": {
    "id": "e67c17a91e74",
@@ -14331,7 +14331,7 @@
    "province": "河南",
    "category": "审计",
    "certs": [
-    "CPA"
+    "不限"
    ],
    "published_at": "2022-09-01",
    "url": "https://job.shinewing.com/job/detail?id=87",
@@ -14348,7 +14348,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "32bdb1f4cd59": {
    "id": "32bdb1f4cd59",
@@ -15981,9 +15981,9 @@
    "firm_id": "shinewing",
    "city": "北京",
    "province": "北京",
-   "category": "评估",
+   "category": "咨询",
    "certs": [
-    "CPA"
+    "不限"
    ],
    "published_at": "2025-01-01",
    "url": "https://job.shinewing.com/job/detail?id=658",
@@ -16000,7 +16000,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "e7726405d9bb": {
    "id": "e7726405d9bb",
@@ -16515,8 +16515,7 @@
    "province": "湖北",
    "category": "咨询",
    "certs": [
-    "CPA",
-    "其他证书"
+    "不限"
    ],
    "published_at": "2025-12-01",
    "url": "https://job.shinewing.com/job/detail?id=726",
@@ -16533,7 +16532,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "370b992c1b1b": {
    "id": "370b992c1b1b",
@@ -16600,7 +16599,7 @@
    "province": "北京",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2022-09-01",
    "url": "https://job.shinewing.com/job/detail?id=303",
@@ -16617,7 +16616,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "0e24831fc0ab": {
    "id": "0e24831fc0ab",
@@ -16628,7 +16627,7 @@
    "province": "北京",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2022-09-01",
    "url": "https://job.shinewing.com/job/detail?id=332",
@@ -16645,7 +16644,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "27f330219e89": {
    "id": "27f330219e89",
@@ -16656,7 +16655,7 @@
    "province": "北京",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2022-09-01",
    "url": "https://job.shinewing.com/job/detail?id=360",
@@ -16673,7 +16672,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "7fd70ba5a3ba": {
    "id": "7fd70ba5a3ba",
@@ -16682,9 +16681,9 @@
    "firm_id": "shinewing",
    "city": "北京",
    "province": "北京",
-   "category": "税务",
+   "category": "其他",
    "certs": [
-    "中级会计师"
+    "不限"
    ],
    "published_at": "2022-09-01",
    "url": "https://job.shinewing.com/job/detail?id=423",
@@ -16701,7 +16700,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "f75ae59b246b": {
    "id": "f75ae59b246b",
@@ -16740,7 +16739,7 @@
    "province": "四川",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2022-09-01",
    "url": "https://job.shinewing.com/job/detail?id=305",
@@ -16757,7 +16756,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "e694edac93c2": {
    "id": "e694edac93c2",
@@ -16768,7 +16767,7 @@
    "province": "辽宁",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2022-09-01",
    "url": "https://job.shinewing.com/job/detail?id=307",
@@ -16785,7 +16784,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "4afa890fc18f": {
    "id": "4afa890fc18f",
@@ -16796,7 +16795,7 @@
    "province": "广东",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2023-08-02",
    "url": "https://job.shinewing.com/job/detail?id=308",
@@ -16813,7 +16812,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "48e122e63285": {
    "id": "48e122e63285",
@@ -16824,7 +16823,7 @@
    "province": "广东",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2023-08-21",
    "url": "https://job.shinewing.com/job/detail?id=365",
@@ -16841,7 +16840,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "374a746464e8": {
    "id": "374a746464e8",
@@ -16852,7 +16851,7 @@
    "province": "广东",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2024-09-01",
    "url": "https://job.shinewing.com/job/detail?id=337",
@@ -16869,7 +16868,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "8c9914d7d727": {
    "id": "8c9914d7d727",
@@ -16880,8 +16879,7 @@
    "province": "海南",
    "category": "税务",
    "certs": [
-    "CPA",
-    "税务师"
+    "不限"
    ],
    "published_at": "2026-04-01",
    "url": "https://job.shinewing.com/job/detail?id=731",
@@ -16898,7 +16896,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "4a24f0f51540": {
    "id": "4a24f0f51540",
@@ -16909,7 +16907,7 @@
    "province": "海南",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2026-08-06",
    "url": "https://job.shinewing.com/job/detail?id=385",
@@ -16926,7 +16924,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "3657f1c9eafd": {
    "id": "3657f1c9eafd",
@@ -16965,7 +16963,7 @@
    "province": "浙江",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2026-09-04",
    "url": "https://job.shinewing.com/job/detail?id=310",
@@ -16982,7 +16980,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "acf7e2b75e99": {
    "id": "acf7e2b75e99",
@@ -16993,7 +16991,7 @@
    "province": "浙江",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2026-09-04",
    "url": "https://job.shinewing.com/job/detail?id=339",
@@ -17010,7 +17008,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "fe5134a4e619": {
    "id": "fe5134a4e619",
@@ -17021,7 +17019,7 @@
    "province": "云南",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2022-09-01",
    "url": "https://job.shinewing.com/job/detail?id=312",
@@ -17038,7 +17036,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "712be6942157": {
    "id": "712be6942157",
@@ -17049,7 +17047,7 @@
    "province": "云南",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2026-09-01",
    "url": "https://job.shinewing.com/job/detail?id=752",
@@ -17066,7 +17064,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "ce3a629baa9a": {
    "id": "ce3a629baa9a",
@@ -17077,7 +17075,7 @@
    "province": "广东",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2022-09-21",
    "url": "https://job.shinewing.com/job/detail?id=317",
@@ -17094,7 +17092,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "19a4abd1032f": {
    "id": "19a4abd1032f",
@@ -17105,7 +17103,7 @@
    "province": "江苏",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2022-09-01",
    "url": "https://job.shinewing.com/job/detail?id=327",
@@ -17122,7 +17120,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "208e0574a3c3": {
    "id": "208e0574a3c3",
@@ -17133,7 +17131,7 @@
    "province": "江苏",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2022-09-01",
    "url": "https://job.shinewing.com/job/detail?id=356",
@@ -17150,7 +17148,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "0ae42da72925": {
    "id": "0ae42da72925",
@@ -17161,7 +17159,7 @@
    "province": "河南",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2022-09-01",
    "url": "https://job.shinewing.com/job/detail?id=354",
@@ -17178,7 +17176,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "7daf075d4156": {
    "id": "7daf075d4156",
@@ -17189,7 +17187,7 @@
    "province": "河南",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2022-09-21",
    "url": "https://job.shinewing.com/job/detail?id=325",
@@ -17206,7 +17204,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "4554d5c67118": {
    "id": "4554d5c67118",
@@ -17217,7 +17215,7 @@
    "province": "河南",
    "category": "税务",
    "certs": [
-    "税务师"
+    "不限"
    ],
    "published_at": "2022-09-21",
    "url": "https://job.shinewing.com/job/detail?id=382",
@@ -17234,7 +17232,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "7bf3fc31e027": {
    "id": "7bf3fc31e027",
@@ -17441,7 +17439,7 @@
    "province": "北京",
    "category": "其他",
    "certs": [
-    "其他证书"
+    "不限"
    ],
    "published_at": "2026-09-01",
    "url": "https://job.shinewing.com/job/detail?id=482",
@@ -17458,7 +17456,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "faa444c93f2f": {
    "id": "faa444c93f2f",
@@ -17467,7 +17465,7 @@
    "firm_id": "shinewing",
    "city": "北京",
    "province": "北京",
-   "category": "审计",
+   "category": "其他",
    "certs": [
     "不限"
    ],
@@ -17486,7 +17484,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "7e9911c7d336": {
    "id": "7e9911c7d336",
@@ -17495,7 +17493,7 @@
    "firm_id": "shinewing",
    "city": "北京",
    "province": "北京",
-   "category": "咨询",
+   "category": "其他",
    "certs": [
     "不限"
    ],
@@ -17514,7 +17512,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "67f28ea11a72": {
    "id": "67f28ea11a72",
@@ -17523,7 +17521,7 @@
    "firm_id": "shinewing",
    "city": "北京",
    "province": "北京",
-   "category": "咨询",
+   "category": "其他",
    "certs": [
     "不限"
    ],
@@ -17542,7 +17540,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "66a3c875a328": {
    "id": "66a3c875a328",
@@ -17551,7 +17549,7 @@
    "firm_id": "shinewing",
    "city": "北京",
    "province": "北京",
-   "category": "评估",
+   "category": "其他",
    "certs": [
     "不限"
    ],
@@ -17570,7 +17568,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "39adcd9b4bc7": {
    "id": "39adcd9b4bc7",
@@ -17607,7 +17605,7 @@
    "firm_id": "shinewing",
    "city": "北京",
    "province": "北京",
-   "category": "审计",
+   "category": "其他",
    "certs": [
     "不限"
    ],
@@ -17626,7 +17624,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:43:31+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "86cf5444d873": {
    "id": "86cf5444d873",
@@ -17775,7 +17773,7 @@
    "firm_id": "shinewing",
    "city": "",
    "province": "",
-   "category": "咨询",
+   "category": "其他",
    "certs": [
     "不限"
    ],
@@ -17794,7 +17792,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:44:40+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "5a690ab8c10a": {
    "id": "5a690ab8c10a",
@@ -18159,7 +18157,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "e2645b332071": {
    "id": "e2645b332071",
@@ -20601,7 +20599,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "7f81afc540b2": {
    "id": "7f81afc540b2",
@@ -21627,7 +21625,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "2e1421dd3a02": {
    "id": "2e1421dd3a02",
@@ -22566,7 +22564,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "c4d26349ddf7": {
    "id": "c4d26349ddf7",
@@ -22766,7 +22764,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "e445c5d3e505": {
    "id": "e445c5d3e505",
@@ -23474,7 +23472,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "a01962d648b6": {
    "id": "a01962d648b6",
@@ -23925,7 +23923,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "a7b8cc02d15a": {
    "id": "a7b8cc02d15a",
@@ -24946,7 +24944,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "7111ffdf625b": {
    "id": "7111ffdf625b",
@@ -24974,7 +24972,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "0d4d56314cec": {
    "id": "0d4d56314cec",
@@ -25115,7 +25113,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "9fb6bee79d53": {
    "id": "9fb6bee79d53",
@@ -25657,7 +25655,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "862a49682656": {
    "id": "862a49682656",
@@ -26604,7 +26602,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "62c85c5dd271": {
    "id": "62c85c5dd271",
@@ -28511,7 +28509,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "f18ce0cffa2f": {
    "id": "f18ce0cffa2f",
@@ -29643,7 +29641,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "fb795c42bdc1": {
    "id": "fb795c42bdc1",
@@ -30008,7 +30006,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "530f0df0cb20": {
    "id": "530f0df0cb20",
@@ -30288,7 +30286,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "317c7cb720b9": {
    "id": "317c7cb720b9",
@@ -30400,7 +30398,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "3e241c4d2987": {
    "id": "3e241c4d2987",
@@ -30456,7 +30454,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "b49916081eea": {
    "id": "b49916081eea",
@@ -30484,7 +30482,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "b4eeb6ce021a": {
    "id": "b4eeb6ce021a",
@@ -30512,7 +30510,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "810ea43c64d0": {
    "id": "810ea43c64d0",
@@ -30988,7 +30986,7 @@
    "status": "active",
    "miss_count": 0,
    "created_at": "2026-11-27T13:21:35+08:00",
-   "updated_at": "2026-11-27T13:45:29+08:00"
+   "updated_at": "2026-11-27T14:10:40+08:00"
   },
   "7b12e3c26be0": {
    "id": "7b12e3c26be0",
@@ -31742,33 +31740,62 @@
    "first_seen": "2026-11-27",
    "last_seen": "2026-11-27",
    "status": "active",
-   "miss_count": 0,
+   "miss_count": 1,
    "created_at": "2026-11-27T13:44:40+08:00",
    "updated_at": "2026-11-27T13:44:40+08:00"
+  },
+  "5cf874af5063": {
+   "id": "5cf874af5063",
+   "title": "税务质控经理(J11566)",
+   "firm": "中汇",
+   "firm_id": "zhcpa",
+   "city": "杭州",
+   "province": "浙江",
+   "category": "税务",
+   "certs": [
+    "CPA",
+    "税务师"
+   ],
+   "published_at": "2026-11-27",
+   "url": "https://zhcpa.zhiye.com/jobs/detail?jobAdId=9f0eb35e-f069-4582-b675-85bed3058b06",
+   "summary": "体系搭建与优化：负责建设、完善事务所税务业务质量控制体系与全流程质控流程，制定并更新内部统一的税务服务质量标准、执业规范，贴合最新财税监管要求保障业务合规性。 全流程质量管控：…",
+   "responsibilities": "体系搭建与优化：负责建设、完善事务所税务业务质量控制体系与全流程质控流程，制定并更新内部统一的税务服务质量标准、执业规范，贴合最新财税监管要求保障业务合规性。\n全流程质量管控：对各类税务鉴证、咨询等项目开展全周期质量监督，重点负责重大项目、高风险项目的过程跟进与最终报告复核，排查业务执行中的疏漏，确保税务相关工作成果的准确性、完整性与合规性。\n风险防范与合规监督：牵头开展业务合规巡检，主动识别执业过程中的潜在税务风险，输出风险预警提示与优化整改方案，完善事务所内部风险防控机制。\n技术赋能与业务融合：牵头探索AI技术在税务质控场景的落地应用，结合业务需求研究智能化质控工具、风险筛查模型，推动质控效率与精准度升级。\n技术支持与能力建设：为一线业务团队提供专业税务技术答疑与合规指导，参与搭建内部执业培训体系，输出质控典型案例、政策解读类培训内容，同步提升全所执业人员的质量合规意识。\n流程迭代优化：定期复盘质控全流程中存在的问题，联动业务部门持续优化质控管理机制，推动事务所整体执业质量稳步提升。",
+   "requirements": "学历与专业背景：本科及以上学历，财务、会计、税务、审计等相关专业，具备扎实的财税、审计专业知识储备。\n工作经验要求：拥有五年以上会计审计或税务审计相关工作经验，熟悉税务师事务所各类业务的执业流程与监管规则，具备丰富的项目实操与风险识别经验。\n专业资质：持有税务师证书，持有注册会计师证书者优先考虑。\n能力与技能要求：具备突出的问题分析与风险研判能力，能够独立解决复杂的执业合规问题；擅长PPT制作，可独立输出逻辑清晰、专业严谨的质控方案、培训演示材料；拥有优秀的跨部门沟通能力与团队协作意识，能够顺畅联动业务团队推进质控要求落地。\n创新研究能力：对AI技术与税务质控、涉税服务的业务融合有浓厚兴趣，愿意主动投入精力研究智能化质控场景的落地应用，探索行业技术创新方向。\n职业素养要求：性格沉稳严谨，具备极强的工作责任心与良好的职业道德，做事积极主动，对待细节严谨细致，严格恪守执业合规底线，同时拥有优秀的学习能力，可快速跟进最新财税政策与行业监管要求更新知识体系。",
+   "headcount": "",
+   "branch": "",
+   "employment_type": "社招",
+   "source_name": "中汇官方招聘门户（zhcpa.zhiye.com）",
+   "homepage": "https://zhcpa.zhiye.com/social",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "status": "active",
+   "miss_count": 0,
+   "created_at": "2026-11-27T14:10:40+08:00",
+   "updated_at": "2026-11-27T14:10:40+08:00"
   }
  },
  "firm_last_ok": {
-  "bdo": "2026-11-27T13:45:29+08:00",
-  "dahua": "2026-11-27T13:45:29+08:00",
-  "ey": "2026-11-27T13:45:29+08:00",
-  "grantthornton": "2026-11-27T13:45:29+08:00",
+  "bdo": "2026-11-27T14:10:40+08:00",
+  "dahua": "2026-11-27T14:10:40+08:00",
+  "ey": "2026-11-27T14:10:40+08:00",
+  "grantthornton": "2026-11-27T14:10:40+08:00",
   "rongcheng": "2026-11-27T13:45:29+08:00",
-  "shinewing": "2026-11-27T13:45:29+08:00",
-  "tianjian": "2026-11-27T13:45:29+08:00",
-  "tzcpa": "2026-11-27T13:45:29+08:00",
-  "zhcpa": "2026-11-27T13:45:29+08:00",
-  "zszh": "2026-11-27T13:45:29+08:00"
+  "shinewing": "2026-11-27T14:10:40+08:00",
+  "tianjian": "2026-11-27T14:10:40+08:00",
+  "tzcpa": "2026-11-27T14:10:40+08:00",
+  "zhcpa": "2026-11-27T14:10:40+08:00",
+  "zszh": "2026-11-27T14:10:40+08:00"
  },
  "baseline_at": "2026-11-27",
- "updated_at": "2026-11-27T13:45:29+08:00",
+ "updated_at": "2026-11-27T14:10:40+08:00",
  "last_run": {
-  "at": "2026-11-27T13:45:29+08:00",
+  "at": "2026-11-27T14:10:40+08:00",
   "stats": {
-   "new": 0,
-   "updated": 76,
-   "unchanged": 1090,
-   "closed": 1,
-   "reopened": 0
+   "new": 1,
+   "updated": 109,
+   "unchanged": 1033,
+   "closed": 0,
+   "reopened": 1
   }
  },
  "firms_status": [
@@ -31779,18 +31806,18 @@
    "count": 22,
    "error": "",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 0.3
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 1.4
   },
   {
    "firm_id": "zhcpa",
    "name": "中汇",
    "status": "ok",
-   "count": 76,
+   "count": 77,
    "error": "",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 0.3
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 1.7
   },
   {
    "firm_id": "shinewing",
@@ -31799,8 +31826,8 @@
    "count": 218,
    "error": "",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 11.2
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 105.6
   },
   {
    "firm_id": "dahua",
@@ -31809,8 +31836,8 @@
    "count": 66,
    "error": "",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 0.2
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 2.0
   },
   {
    "firm_id": "tianjian",
@@ -31819,8 +31846,8 @@
    "count": 93,
    "error": "",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 0.4
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 3.2
   },
   {
    "firm_id": "tzcpa",
@@ -31829,8 +31856,8 @@
    "count": 320,
    "error": "",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 0.5
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 4.2
   },
   {
    "firm_id": "tianheng",
@@ -31839,7 +31866,7 @@
    "count": 0,
    "error": "",
    "note": "官网 join-us 栏目仅有校园招聘信息，暂无公开社招岗位",
-   "at": "2026-11-27T13:45:29+08:00"
+   "at": "2026-11-27T14:10:40+08:00"
   },
   {
    "firm_id": "ey",
@@ -31848,18 +31875,18 @@
    "count": 81,
    "error": "",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 26.7
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 82.8
   },
   {
    "firm_id": "rongcheng",
    "name": "容诚",
-   "status": "ok",
-   "count": 24,
-   "error": "",
+   "status": "failed",
+   "count": 0,
+   "error": "RuntimeError: HTTPSConnectionPool(host='careers.rccpa.com.cn', port=443): Max retries exceeded with url: /eRecruit/recruit/position/getIndexPositions?type=2&titleSite= (Caused by ConnectTimeoutError(<HTTPSConnection(host='careers.rccpa.com.cn', port=443) at 0x7d685fe17530>, 'Connection to careers.rccpa.com.cn timed out. (connect timeout=25)'))",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 0.3
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 160.2
   },
   {
    "firm_id": "deloitte",
@@ -31868,7 +31895,7 @@
    "count": 0,
    "error": "",
    "note": "官方招聘门户为 SuccessFactors/wecruit，需登录交互，未开放公开岗位列表接口",
-   "at": "2026-11-27T13:45:29+08:00"
+   "at": "2026-11-27T14:10:40+08:00"
   },
   {
    "firm_id": "pwc",
@@ -31877,7 +31904,7 @@
    "count": 0,
    "error": "",
    "note": "官网(Workday)存在频率限制，CX 接口持续返回 429，无法稳定自动采集；仅保留官网入口",
-   "at": "2026-11-27T13:45:29+08:00"
+   "at": "2026-11-27T14:10:40+08:00"
   },
   {
    "firm_id": "kpmg",
@@ -31886,7 +31913,7 @@
    "count": 0,
    "error": "",
    "note": "官网招聘页无岗位列表与公开接口（job-search 页面 404）",
-   "at": "2026-11-27T13:45:29+08:00"
+   "at": "2026-11-27T14:10:40+08:00"
   },
   {
    "firm_id": "bdo",
@@ -31895,8 +31922,8 @@
    "count": 178,
    "error": "",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 0.6
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 2.4
   },
   {
    "firm_id": "grantthornton",
@@ -31905,8 +31932,8 @@
    "count": 88,
    "error": "",
    "note": "",
-   "at": "2026-11-27T13:45:29+08:00",
-   "duration": 0.4
+   "at": "2026-11-27T14:10:40+08:00",
+   "duration": 2.1
   },
   {
    "firm_id": "suyajc",
@@ -31915,20 +31942,20 @@
    "count": 0,
    "error": "",
    "note": "官网仅有招聘简介与邮箱投递方式，无结构化岗位列表",
-   "at": "2026-11-27T13:45:29+08:00"
+   "at": "2026-11-27T14:10:40+08:00"
   }
  ],
  "last_report": {
-  "at": "2026-11-27T13:45:29+08:00",
+  "at": "2026-11-27T14:10:40+08:00",
   "attempted": 10,
-  "succeeded": 10,
-  "success_rate": 100.0,
+  "succeeded": 9,
+  "success_rate": 90.0,
   "stats": {
-   "new": 0,
-   "updated": 76,
-   "unchanged": 1090,
-   "closed": 1,
-   "reopened": 0
+   "new": 1,
+   "updated": 109,
+   "unchanged": 1033,
+   "closed": 0,
+   "reopened": 1
   },
   "results": [
    {
@@ -31939,7 +31966,7 @@
     "error": "",
     "pages": 0,
     "note": "",
-    "duration": 0.6
+    "duration": 2.4
    },
    {
     "firm_id": "dahua",
@@ -31949,7 +31976,7 @@
     "error": "",
     "pages": 0,
     "note": "",
-    "duration": 0.2
+    "duration": 2.0
    },
    {
     "firm_id": "ey",
@@ -31959,7 +31986,7 @@
     "error": "",
     "pages": 0,
     "note": "",
-    "duration": 26.7
+    "duration": 82.8
    },
    {
     "firm_id": "grantthornton",
@@ -31969,17 +31996,17 @@
     "error": "",
     "pages": 0,
     "note": "",
-    "duration": 0.4
+    "duration": 2.1
    },
    {
     "firm_id": "rongcheng",
     "firm_name": "容诚",
-    "ok": true,
-    "count": 24,
-    "error": "",
+    "ok": false,
+    "count": 0,
+    "error": "RuntimeError: HTTPSConnectionPool(host='careers.rccpa.com.cn', port=443): Max retries exceeded with url: /eRecruit/recruit/position/getIndexPositions?type=2&titleSite= (Caused by ConnectTimeoutError(<HTTPSConnection(host='careers.rccpa.com.cn', port=443) at 0x7d685fe17530>, 'Connection to careers.rccpa.com.cn timed out. (connect timeout=25)'))",
     "pages": 0,
     "note": "",
-    "duration": 0.3
+    "duration": 160.2
    },
    {
     "firm_id": "shinewing",
@@ -31989,7 +32016,7 @@
     "error": "",
     "pages": 0,
     "note": "",
-    "duration": 11.2
+    "duration": 105.6
    },
    {
     "firm_id": "tianjian",
@@ -31999,7 +32026,7 @@
     "error": "",
     "pages": 0,
     "note": "",
-    "duration": 0.4
+    "duration": 3.2
    },
    {
     "firm_id": "tzcpa",
@@ -32009,17 +32036,17 @@
     "error": "",
     "pages": 0,
     "note": "",
-    "duration": 0.5
+    "duration": 4.2
    },
    {
     "firm_id": "zhcpa",
     "firm_name": "中汇",
     "ok": true,
-    "count": 76,
+    "count": 77,
     "error": "",
     "pages": 0,
     "note": "",
-    "duration": 0.3
+    "duration": 1.7
    },
    {
     "firm_id": "zszh",
@@ -32029,7 +32056,7 @@
     "error": "",
     "pages": 0,
     "note": "",
-    "duration": 0.3
+    "duration": 1.4
    }
   ]
  },

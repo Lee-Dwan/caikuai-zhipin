@@ -1,14 +1,14 @@
 {
- "at": "2026-11-27T13:45:29+08:00",
+ "at": "2026-11-27T14:10:40+08:00",
  "attempted": 10,
- "succeeded": 10,
- "success_rate": 100.0,
+ "succeeded": 9,
+ "success_rate": 90.0,
  "stats": {
-  "new": 0,
-  "updated": 76,
-  "unchanged": 1090,
-  "closed": 1,
-  "reopened": 0
+  "new": 1,
+  "updated": 109,
+  "unchanged": 1033,
+  "closed": 0,
+  "reopened": 1
  },
  "results": [
   {
@@ -19,7 +19,7 @@
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 0.6
+   "duration": 2.4
   },
   {
    "firm_id": "dahua",
@@ -29,7 +29,7 @@
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 0.2
+   "duration": 2.0
   },
   {
    "firm_id": "ey",
@@ -39,7 +39,7 @@
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 26.7
+   "duration": 82.8
   },
   {
    "firm_id": "grantthornton",
@@ -49,17 +49,17 @@
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 0.4
+   "duration": 2.1
   },
   {
    "firm_id": "rongcheng",
    "firm_name": "容诚",
-   "ok": true,
-   "count": 24,
-   "error": "",
+   "ok": false,
+   "count": 0,
+   "error": "RuntimeError: HTTPSConnectionPool(host='careers.rccpa.com.cn', port=443): Max retries exceeded with url: /eRecruit/recruit/position/getIndexPositions?type=2&titleSite= (Caused by ConnectTimeoutError(<HTTPSConnection(host='careers.rccpa.com.cn', port=443) at 0x7d685fe17530>, 'Connection to careers.rccpa.com.cn timed out. (connect timeout=25)'))",
    "pages": 0,
    "note": "",
-   "duration": 0.3
+   "duration": 160.2
   },
   {
    "firm_id": "shinewing",
@@ -69,7 +69,7 @@
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 11.2
+   "duration": 105.6
   },
   {
    "firm_id": "tianjian",
@@ -79,7 +79,7 @@
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 0.4
+   "duration": 3.2
   },
   {
    "firm_id": "tzcpa",
@@ -89,17 +89,17 @@
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 0.5
+   "duration": 4.2
   },
   {
    "firm_id": "zhcpa",
    "firm_name": "中汇",
    "ok": true,
-   "count": 76,
+   "count": 77,
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 0.3
+   "duration": 1.7
   },
   {
    "firm_id": "zszh",
@@ -109,7 +109,7 @@
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 0.3
+   "duration": 1.4
   }
  ]
 }
