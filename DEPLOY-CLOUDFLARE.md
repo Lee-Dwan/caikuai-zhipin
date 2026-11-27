@@ -1,3 +1,5 @@
+> ⚠️ 实测记录：在中国大陆家庭宽带直连测试中，`*.pages.dev` 出现 TLS 握手 13～15 秒、传输被重置，20 秒仅收到 8～11KB，判定为不可用。本项目最终采用 **GitHub Pages** 上线（见 `reports/ONLINE-REPORT.md`）。本文仅作为备选方案保留。
+
 # Cloudflare Pages 免费部署说明
 
 全程免费：GitHub 公共仓库（代码 + Actions 2000 分钟/月）+ Cloudflare Pages 免费版（静态站点无限带宽、每月 500 次构建）。无需服务器、域名、数据库。

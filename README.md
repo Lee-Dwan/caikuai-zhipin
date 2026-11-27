@@ -6,7 +6,7 @@
 - 数据：`data/jobs.json`（静态 JSON）+ `assets/js/data-fallback.js`（本地双击预览兜底）
 - 采集：Python 脚本，逐个事务所独立模块
 - 更新：GitHub Actions 每天北京时间 08:00 自动采集并提交数据
-- 部署：Cloudflare Pages（连接 GitHub 仓库，push 即自动发布）
+- 部署：GitHub Pages（连接 GitHub 仓库，push 即自动发布；实测国内直连 0.5 秒级）
 
 ## 当前数据（2026-11-27 首次上线）
 
@@ -63,6 +63,12 @@
 ├── DEPLOY-CLOUDFLARE.md
 └── MAINTAIN.md
 ```
+
+## 线上地址
+
+- 网站：https://Lee-Dwan.github.io/caikuai-zhipin/
+- 仓库：https://github.com/Lee-Dwan/caikuai-zhipin
+- 上线与实测记录：`reports/ONLINE-REPORT.md`
 
 ## 本地运行
 
