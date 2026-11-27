@@ -1,4 +1,4 @@
-/* 财会职聘 — 前端逻辑（无依赖，移动优先） */
+/* 确实在审 — 前端逻辑（无依赖，移动优先） */
 (function () {
   "use strict";
 
@@ -425,7 +425,7 @@
   function sharePage() {
     var url = location.href;
     if (navigator.share) {
-      navigator.share({ title: "财会职聘 · 会计师事务所社会招聘", text: "筛选结果分享", url: url }).catch(function () {});
+      navigator.share({ title: "确实在审 · 财会行业招聘信息查询", text: "财会行业招聘信息查询结果分享", url: url }).catch(function () {});
       return;
     }
     copyText(url).then(function (ok) { toast(ok ? "筛选结果的链接已复制，粘贴到微信即可分享" : "复制失败，请手动复制地址栏"); });
