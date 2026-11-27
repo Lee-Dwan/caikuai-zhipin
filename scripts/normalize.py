@@ -163,5 +163,5 @@ def summarize(text, limit=90):
 def make_id(firm_id, title, city, url=""):
     key = f"{firm_id}|{re.sub(r'[^0-9A-Za-z\u4e00-\u9fa5]', '', title)}|{city}"
     if url:
-        key += "|" + url.split("?")[0]
+        key += "|" + url
     return hashlib.sha1(key.encode("utf-8")).hexdigest()[:12]

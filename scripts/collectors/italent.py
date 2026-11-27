@@ -127,3 +127,14 @@ class DaHua(ITalentCollector):
     detail_path = "/social/detail"
     list_page = "/social/jobs"
     verify = False
+
+
+@register
+class DaXin(ITalentCollector):
+    firm_id = "daxin"
+    firm_name = "大信"
+    source_name = "大信会计师事务所官方招聘门户（daxincpa.zhiye.com）"
+    homepage = "https://daxincpa.zhiye.com/social"
+    portal_base = "https://daxincpa.zhiye.com"
+    portal_id = "c818a775-34a5-479f-9430-f191d897af05"
+    list_page = "/social"
