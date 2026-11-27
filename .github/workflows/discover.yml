@@ -74,6 +74,7 @@ jobs:
           open("/tmp/issue-body.txt", "w", encoding="utf-8").write("\n".join(lines))
           PY
           if [ -s /tmp/issue-body.txt ]; then
+            gh label create "discovery" --color "0E8A16" --description "招聘来源发现" 2>/dev/null || true
             gh issue create \
               --title "招聘来源发现 $(TZ=Asia/Shanghai date '+%Y-%m-%d')" \
               --body-file /tmp/issue-body.txt \
