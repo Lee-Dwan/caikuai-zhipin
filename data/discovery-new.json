@@ -1,0 +1,23 @@
+[
+ {
+  "id": "iguopin",
+  "name": "国聘（央企国企招聘平台）",
+  "category": "国企/央企",
+  "url": "https://www.iguopin.com/",
+  "signal": "reachable_with_social"
+ },
+ {
+  "id": "ciic",
+  "name": "中智招聘",
+  "category": "国企/上市公司",
+  "url": "https://www.ciiczhaopin.com/",
+  "signal": "reachable_with_social"
+ },
+ {
+  "id": "xigema",
+  "name": "希格玛会计师事务所",
+  "category": "会计师事务所",
+  "url": "https://www.xigema.com/",
+  "signal": "reachable_with_social"
+ }
+]

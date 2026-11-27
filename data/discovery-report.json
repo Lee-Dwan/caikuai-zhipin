@@ -1,0 +1,80 @@
+{
+ "at": "2026-11-27T15:07:11+08:00",
+ "total": 7,
+ "reachable_with_social": 3,
+ "reachable": 0,
+ "only_campus": 0,
+ "blocked": 4,
+ "results": [
+  {
+   "id": "iguopin",
+   "name": "国聘（央企国企招聘平台）",
+   "category": "国企/央企",
+   "url": "https://www.iguopin.com/",
+   "status": "reachable_with_social",
+   "checked_at": "2026-11-27T15:07:05+08:00",
+   "duration": 0.8,
+   "error": ""
+  },
+  {
+   "id": "ciic",
+   "name": "中智招聘",
+   "category": "国企/上市公司",
+   "url": "https://www.ciiczhaopin.com/",
+   "status": "reachable_with_social",
+   "checked_at": "2026-11-27T15:07:06+08:00",
+   "duration": 1.3,
+   "error": ""
+  },
+  {
+   "id": "huaxing",
+   "name": "华兴会计师事务所（广东）",
+   "category": "会计师事务所",
+   "url": "https://www.gdhxcpa.com.cn/",
+   "status": "blocked",
+   "checked_at": "2026-11-27T15:07:06+08:00",
+   "duration": 0.4,
+   "error": "ConnectionError: HTTPSConnectionPool(host='www.gdhxcpa.com.cn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.gdhxcpa.com.cn', port=443): Failed to resolve 'www.gdhxcpa.com.cn' ([Errno -2] Name or service not known)\"))"
+  },
+  {
+   "id": "xigema",
+   "name": "希格玛会计师事务所",
+   "category": "会计师事务所",
+   "url": "https://www.xigema.com/",
+   "status": "reachable_with_social",
+   "checked_at": "2026-11-27T15:07:08+08:00",
+   "duration": 1.7,
+   "error": ""
+  },
+  {
+   "id": "zqftcpa",
+   "name": "中兴财光华会计师事务所",
+   "category": "会计师事务所",
+   "url": "https://www.zqftcpa.com/",
+   "status": "blocked",
+   "checked_at": "2026-11-27T15:07:08+08:00",
+   "duration": 0.0,
+   "error": "ConnectionError: HTTPSConnectionPool(host='www.zqftcpa.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.zqftcpa.com', port=443): Failed to resolve 'www.zqftcpa.com' ([Errno -2] Name or service not known)\"))"
+  },
+  {
+   "id": "jzlx",
+   "name": "京洲联信税务师事务所",
+   "category": "税务师事务所",
+   "url": "https://www.jzlx.com.cn/",
+   "status": "blocked",
+   "checked_at": "2026-11-27T15:07:10+08:00",
+   "duration": 2.1,
+   "error": "SSLError: HTTPSConnectionPool(host='www.jzlx.com.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)')))"
+  },
+  {
+   "id": "zryh",
+   "name": "中瑞岳华税务师事务所",
+   "category": "税务师事务所",
+   "url": "https://www.zryh.com.cn/",
+   "status": "blocked",
+   "checked_at": "2026-11-27T15:07:11+08:00",
+   "duration": 0.4,
+   "error": "HTTP 403"
+  }
+ ]
+}
