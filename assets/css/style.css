@@ -233,12 +233,12 @@ select:focus{outline:none;border-color:var(--brand)}
   .site-footer{padding-bottom:30px}
   .sheet{border-radius:18px;margin-bottom:6vh}
   .sheet-mask{align-items:center}
-  .filter-toggle{display:none}
-  .filter-panel{display:block !important;margin-top:6px}
+  .filter-toggle{display:flex}
+  .filter-panel.open{margin-top:6px}
 }
 @media (min-width:980px){
   .hero{padding-top:38px}
-  .filter-panel{display:grid !important;grid-template-columns:1.05fr 1fr 1fr;gap:0 26px;padding:2px 20px 16px}
+  .filter-panel.open{display:grid;grid-template-columns:1.05fr 1fr 1fr;gap:0 26px;padding:2px 20px 16px}
   .filter-group{border-bottom:0;padding:13px 0}
   .filter-ops{grid-column:1/-1;border-top:1px dashed var(--line);margin-top:2px;padding-top:13px}
 }

@@ -49,9 +49,11 @@ def main():
         cnt = page.locator(".job-card").count()
         check("关键词搜索生效", cnt > 0, f"{cnt} 条")
 
-        # 3. 省份 → 城市联动
+        # 3. 省份 → 城市联动（桌面端筛选面板默认收起，先展开）
         page.fill("#kw", "")
         page.wait_for_timeout(400)
+        page.click("#filterToggle")
+        page.wait_for_timeout(300)
         page.select_option("#province", "江苏")
         page.wait_for_timeout(400)
         cities = page.eval_on_selector_all("#city option", "els => els.map(e => e.value)")
@@ -62,7 +64,7 @@ def main():
         check("城市筛选生效", all(c == "南京" for c in prov_cities) and len(prov_cities) > 0, f"{len(prov_cities)} 条")
         check("筛选条件写入 URL", "prov=%E6%B1%9F%E8%8B%8F" in page.url and "city=%E5%8D%97%E4%BA%AC" in page.url, page.url)
 
-        # 4. 事务所 + 证书 + 时间组合（桌面端筛选面板常驻，无需展开）
+        # 4. 事务所 + 证书 + 时间组合（面板已展开）
         page.click("[data-firm='天健']")
         page.wait_for_timeout(300)
         firms = page.eval_on_selector_all(".job-card .job-firm", "els => els.map(e => e.textContent)")
@@ -86,6 +88,15 @@ def main():
         page.select_option("#sort", "firm")
         page.wait_for_timeout(400)
         check("排序切换生效", "sort=firm" in page.url, page.url)
+
+        # 5.5 查看结果后筛选面板自动收起
+        page.click("[data-time='7']")
+        page.wait_for_timeout(300)
+        page.click("#applyFilters")
+        page.wait_for_timeout(500)
+        check("查看结果后筛选面板自动收起", not page.is_visible("#filterPanel"))
+        page.click("#filterToggle")
+        page.wait_for_timeout(300)
 
         # 6. 岗位详情与官方投递链接
         page.click("#resetFilters")
