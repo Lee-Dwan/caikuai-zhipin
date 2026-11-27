@@ -1,27 +1,27 @@
 {
  "meta": {
-  "generated_at": "2026-11-27T14:10:40+08:00",
-  "active_jobs": 1128,
+  "generated_at": "2026-11-27T14:42:06+08:00",
+  "active_jobs": 1127,
   "firm_count": 10,
   "today_new": 0,
   "covered_firms": [
+   "中汇",
+   "天职国际",
    "立信",
+   "安永",
+   "中审众环",
    "容诚",
    "信永中和",
-   "安永",
-   "天职国际",
-   "中审众环",
-   "中汇",
    "天健",
-   "大华",
-   "致同"
+   "致同",
+   "大华"
   ],
   "no_public_jobs": [],
   "failed_firms": [
    {
     "firm_id": "rongcheng",
     "name": "容诚",
-    "error": "RuntimeError: HTTPSConnectionPool(host='careers.rccpa.com.cn', port=443): Max retries exceeded with url: /eRecruit/recruit/position/getIndexPositions?type=2&titleSite= (Caused by ConnectTimeoutError(<HTTPSConnection(host='careers.rccpa.com.cn', port=443) at 0x7d685fe17530>, 'Connection to careers.rccpa.com.cn timed out. (connect timeout=25)'))"
+    "error": "RuntimeError: HTTPSConnectionPool(host='careers.rccpa.com.cn', port=443): Max retries exceeded with url: /eRecruit/recruit/position/getIndexPositions?type=2&titleSite= (Caused by ConnectTimeoutError(<HTTPSConnection(host='careers.rccpa.com.cn', port=443) at 0x7145b75c76e0>, 'Connection to careers.rccpa.com.cn timed out. (connect timeout=25)'))"
    }
   ],
   "firms_status": [
@@ -32,8 +32,8 @@
     "count": 22,
     "error": "",
     "note": "",
-    "at": "2026-11-27T14:10:40+08:00",
-    "duration": 1.4
+    "at": "2026-11-27T14:42:06+08:00",
+    "duration": 1.5
    },
    {
     "firm_id": "zhcpa",
@@ -42,8 +42,8 @@
     "count": 77,
     "error": "",
     "note": "",
-    "at": "2026-11-27T14:10:40+08:00",
-    "duration": 1.7
+    "at": "2026-11-27T14:42:06+08:00",
+    "duration": 1.4
    },
    {
     "firm_id": "shinewing",
@@ -52,8 +52,8 @@
     "count": 218,
     "error": "",
     "note": "",
-    "at": "2026-11-27T14:10:40+08:00",
-    "duration": 105.6
+    "at": "2026-11-27T14:42:06+08:00",
+    "duration": 102.3
    },
    {
     "firm_id": "dahua",
@@ -62,8 +62,8 @@
     "count": 66,
     "error": "",
     "note": "",
-    "at": "2026-11-27T14:10:40+08:00",
-    "duration": 2.0
+    "at": "2026-11-27T14:42:06+08:00",
+    "duration": 3.3
    },
    {
     "firm_id": "tianjian",
@@ -72,8 +72,8 @@
     "count": 93,
     "error": "",
     "note": "",
-    "at": "2026-11-27T14:10:40+08:00",
-    "duration": 3.2
+    "at": "2026-11-27T14:42:06+08:00",
+    "duration": 3.0
    },
    {
     "firm_id": "tzcpa",
@@ -82,8 +82,8 @@
     "count": 320,
     "error": "",
     "note": "",
-    "at": "2026-11-27T14:10:40+08:00",
-    "duration": 4.2
+    "at": "2026-11-27T14:42:06+08:00",
+    "duration": 6.2
    },
    {
     "firm_id": "tianheng",
@@ -92,7 +92,7 @@
     "count": 0,
     "error": "",
     "note": "官网 join-us 栏目仅有校园招聘信息，暂无公开社招岗位",
-    "at": "2026-11-27T14:10:40+08:00"
+    "at": "2026-11-27T14:42:06+08:00"
    },
    {
     "firm_id": "ey",
@@ -101,18 +101,18 @@
     "count": 81,
     "error": "",
     "note": "",
-    "at": "2026-11-27T14:10:40+08:00",
-    "duration": 82.8
+    "at": "2026-11-27T14:42:06+08:00",
+    "duration": 86.6
    },
    {
     "firm_id": "rongcheng",
     "name": "容诚",
     "status": "failed",
     "count": 0,
-    "error": "RuntimeError: HTTPSConnectionPool(host='careers.rccpa.com.cn', port=443): Max retries exceeded with url: /eRecruit/recruit/position/getIndexPositions?type=2&titleSite= (Caused by ConnectTimeoutError(<HTTPSConnection(host='careers.rccpa.com.cn', port=443) at 0x7d685fe17530>, 'Connection to careers.rccpa.com.cn timed out. (connect timeout=25)'))",
+    "error": "RuntimeError: HTTPSConnectionPool(host='careers.rccpa.com.cn', port=443): Max retries exceeded with url: /eRecruit/recruit/position/getIndexPositions?type=2&titleSite= (Caused by ConnectTimeoutError(<HTTPSConnection(host='careers.rccpa.com.cn', port=443) at 0x7145b75c76e0>, 'Connection to careers.rccpa.com.cn timed out. (connect timeout=25)'))",
     "note": "",
-    "at": "2026-11-27T14:10:40+08:00",
-    "duration": 160.2
+    "at": "2026-11-27T14:42:06+08:00",
+    "duration": 161.3
    },
    {
     "firm_id": "deloitte",
@@ -121,7 +121,7 @@
     "count": 0,
     "error": "",
     "note": "官方招聘门户为 SuccessFactors/wecruit，需登录交互，未开放公开岗位列表接口",
-    "at": "2026-11-27T14:10:40+08:00"
+    "at": "2026-11-27T14:42:06+08:00"
    },
    {
     "firm_id": "pwc",
@@ -130,7 +130,7 @@
     "count": 0,
     "error": "",
     "note": "官网(Workday)存在频率限制，CX 接口持续返回 429，无法稳定自动采集；仅保留官网入口",
-    "at": "2026-11-27T14:10:40+08:00"
+    "at": "2026-11-27T14:42:06+08:00"
    },
    {
     "firm_id": "kpmg",
@@ -139,7 +139,7 @@
     "count": 0,
     "error": "",
     "note": "官网招聘页无岗位列表与公开接口（job-search 页面 404）",
-    "at": "2026-11-27T14:10:40+08:00"
+    "at": "2026-11-27T14:42:06+08:00"
    },
    {
     "firm_id": "bdo",
@@ -148,8 +148,8 @@
     "count": 178,
     "error": "",
     "note": "",
-    "at": "2026-11-27T14:10:40+08:00",
-    "duration": 2.4
+    "at": "2026-11-27T14:42:06+08:00",
+    "duration": 1.8
    },
    {
     "firm_id": "grantthornton",
@@ -158,8 +158,8 @@
     "count": 88,
     "error": "",
     "note": "",
-    "at": "2026-11-27T14:10:40+08:00",
-    "duration": 2.1
+    "at": "2026-11-27T14:42:06+08:00",
+    "duration": 1.3
    },
    {
     "firm_id": "suyajc",
@@ -168,7 +168,7 @@
     "count": 0,
     "error": "",
     "note": "官网仅有招聘简介与邮箱投递方式，无结构化岗位列表",
-    "at": "2026-11-27T14:10:40+08:00"
+    "at": "2026-11-27T14:42:06+08:00"
    }
   ],
   "baseline_at": "2026-11-27",
@@ -177,7 +177,7 @@
    "attempted": 10,
    "succeeded": 9,
    "success_rate": 90.0,
-   "at": "2026-11-27T14:10:40+08:00"
+   "at": "2026-11-27T14:42:06+08:00"
   }
  },
  "jobs": [
@@ -2315,30 +2315,6 @@
    "requirements": "",
    "headcount": "",
    "branch": "",
-   "employment_type": "社招",
-   "source_name": "安永官方招聘站（careers.ey.com）",
-   "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27",
-   "status": "active"
-  },
-  {
-   "id": "015f7dc80904",
-   "title": "【審計服務】財務報表審計 - 副組長/組長/副理 (桃園)",
-   "firm": "安永",
-   "firm_id": "ey",
-   "city": "",
-   "province": "",
-   "category": "其他",
-   "certs": [
-    "不限"
-   ],
-   "published_at": "",
-   "url": "https://careers.ey.com/ey/job/%E6%A1%83%E5%9C%92%E5%B8%82-%E3%80%90%E5%AF%A9%E8%A8%88%E6%9C%8D%E5%8B%99%E3%80%91%E8%B2%A1%E5%8B%99%E5%A0%B1%E8%A1%A8%E5%AF%A9%E8%A8%88-%E5%89%AF%E7%B5%84%E9%95%B7%E7%B5%84%E9%95%B7%E5%89%AF%E7%90%86-%28%E6%A1%83%E5%9C%92%29-33045/911236301/",
-   "summary": "在安永，您將有機會借助全球化的規模、全面性的支持、多元共融的文化及先進的技術來打造您的職場生涯，展示您的獨特個性，發揮個人極致潛力。您的獨特見解與專業洞察力，將使安永變得更好。加入…",
-   "responsibilities": "在安永，您將有機會借助全球化的規模、全面性的支持、多元共融的文化及先進的技術來打造您的職場生涯，展示您的獨特個性，發揮個人極致潛力。您的獨特見解與專業洞察力，將使安永變得更好。加入安永，為自己打造卓越的職場經歷，並與所有優秀的安永人一起建設更美好的商業世界。\n\nJob Description\n\n財務/稅務報表之查核\n\nJob Conditions\n\n1.具備2年以上四大事務所審計相關工作經驗或3年以上中型事務所工作經驗.\n\n2.具公開發行公司查核經驗或查核一般公司稅務簽證案件經驗.\n\n關於安永\n\n安永的宗旨是致力建設更美好的商業世界。我們以創造客戶、利害關係人及社會各界的永續性成長為目標，並協助全球各地資本市場和經濟體建立信任和信心。\n\n以數據及科技為核心技術，安永全球的優質團隊涵蓋150多個國家的業務，透過審計服務建立客戶的信任，支持企業成長、轉型並達到營運目標。\n\n透過專業領域的服務－審計、諮詢、法律、稅務和策略與交易諮詢，安永的專業團隊提出更具啟發性的問題，為當前最迫切的挑戰，提出質疑，並推出嶄新的解決方案。\n\n安永致力於推廣多元化和公平性。",
-   "requirements": "",
-   "headcount": "",
-   "branch": "桃园",
    "employment_type": "社招",
    "source_name": "安永官方招聘站（careers.ey.com）",
    "first_seen": "2026-11-27",

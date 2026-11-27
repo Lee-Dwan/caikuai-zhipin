@@ -1,23 +1,23 @@
 # 采集报告
 
-- 采集时间：2026-11-27T14:10:40+08:00（北京时间）
+- 采集时间：2026-11-27T14:42:06+08:00（北京时间）
 - 成功率：9/10（90.0%）
-- 在招岗位：1128 条；覆盖事务所：10 家；今日新增：0
+- 在招岗位：1127 条；覆盖事务所：10 家；今日新增：0
 
 ## 各数据源
 
 | 事务所 | 状态 | 条数 | 耗时(s) | 说明 |
 | --- | --- | --- | --- | --- |
-| 立信 | 成功 | 178 | 2.4 | - |
-| 大华 | 成功 | 66 | 2.0 | - |
-| 安永 | 成功 | 81 | 82.8 | - |
-| 致同 | 成功 | 88 | 2.1 | - |
-| 容诚 | 失败 | 0 | 160.2 | RuntimeError: HTTPSConnectionPool(host='careers.rccpa.com.cn', port=443): Max retries exceeded with url: /eRecruit/recruit/position/getIndexPositions?type=2&titleSite= (Caused by ConnectTimeoutError(<HTTPSConnection(host='careers.rccpa.com.cn', port=443) at 0x7d685fe17530>, 'Connection to careers.rccpa.com.cn timed out. (connect timeout=25)')) |
-| 信永中和 | 成功 | 218 | 105.6 | - |
-| 天健 | 成功 | 93 | 3.2 | - |
-| 天职国际 | 成功 | 320 | 4.2 | - |
-| 中汇 | 成功 | 77 | 1.7 | - |
-| 中审众环 | 成功 | 22 | 1.4 | - |
+| 立信 | 成功 | 178 | 1.8 | - |
+| 大华 | 成功 | 66 | 3.3 | - |
+| 安永 | 成功 | 81 | 86.6 | - |
+| 致同 | 成功 | 88 | 1.3 | - |
+| 容诚 | 失败 | 0 | 161.3 | RuntimeError: HTTPSConnectionPool(host='careers.rccpa.com.cn', port=443): Max retries exceeded with url: /eRecruit/recruit/position/getIndexPositions?type=2&titleSite= (Caused by ConnectTimeoutError(<HTTPSConnection(host='careers.rccpa.com.cn', port=443) at 0x7145b75c76e0>, 'Connection to careers.rccpa.com.cn timed out. (connect timeout=25)')) |
+| 信永中和 | 成功 | 218 | 102.3 | - |
+| 天健 | 成功 | 93 | 3.0 | - |
+| 天职国际 | 成功 | 320 | 6.2 | - |
+| 中汇 | 成功 | 77 | 1.4 | - |
+| 中审众环 | 成功 | 22 | 1.5 | - |
 
 ## 未纳入自动采集
 
