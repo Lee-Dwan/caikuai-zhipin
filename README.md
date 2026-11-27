@@ -66,8 +66,8 @@
 
 ## 线上地址
 
-- 网站：https://Lee-Dwan.github.io/caikuai-zhipin/
-- 仓库：https://github.com/Lee-Dwan/caikuai-zhipin
+- 网站：https://caikuai-zhaopin.github.io/caikuai-zhipin/
+- 仓库：https://github.com/caikuai-zhaopin/caikuai-zhipin
 - 上线与实测记录：`reports/ONLINE-REPORT.md`
 
 ## 本地运行

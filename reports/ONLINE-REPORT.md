@@ -4,8 +4,8 @@
 
 ## 一、访问地址
 
-- 网站（固定网址，长期有效）：https://Lee-Dwan.github.io/caikuai-zhipin/
-- GitHub 仓库（公开）：https://github.com/Lee-Dwan/caikuai-zhipin
+- 网站（固定网址，长期有效）：https://caikuai-zhaopin.github.io/caikuai-zhipin/
+- GitHub 仓库（公开）：https://github.com/caikuai-zhaopin/caikuai-zhipin
 - 自动更新：GitHub Actions「每日采集招聘数据」，北京时间每天 08:00（UTC 0 0 * * *）
 
 无需登录、无需 VPN、无域名、无服务器、无数据库、无付费 API。
@@ -26,7 +26,7 @@
 
 - 运行编号：45949533886（workflow_dispatch 手动触发，用于上线验证）
 - 开始/结束：2026-11-27 14:04:25 → 14:10:45（北京时间），耗时约 6 分 20 秒，结论 **success**
-- 运行地址：https://github.com/Lee-Dwan/caikuai-zhipin/actions/runs/45949533886
+- 运行地址：https://github.com/caikuai-zhaopin/caikuai-zhipin/actions/runs/45949533886
 - 步骤：检出 → 安装 Python/依赖 → 执行采集 → 结果摘要 → 采集健康检查 → 提交数据更新，全部 success
 - 数据提交：`chore(data): 自动更新招聘数据 2026-11-27 14:10`（commit 5ac0beb）
 - 采集结果：**9/10 成功（90%）**，在招 **1,128** 条，覆盖 **10** 家事务所
