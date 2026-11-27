@@ -76,6 +76,11 @@ jobs:
             git push
           fi
 
+      - name: 通知搜索引擎收录（IndexNow）
+        if: always()
+        run: |
+          curl -sS --max-time 20 "https://api.indexnow.org/indexnow?url=https%3A%2F%2FLee-Dwan.github.io%2Fcaikuai-zhipin%2F&key=71214d107d773df6375676d4d3f0777f" >/dev/null 2>&1 || true
+
       - name: 失败通知（自动创建 Issue）
         if: failure()
         env:

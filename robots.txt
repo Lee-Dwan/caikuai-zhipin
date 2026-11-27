@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://Lee-Dwan.github.io/caikuai-zhipin/sitemap.xml
