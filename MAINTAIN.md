@@ -38,12 +38,22 @@ python3 scripts/collect.py --firms xinfirm              # 正式入库
 
 **没有公开列表的机构不要硬写采集器**，把它加到 `scripts/collect.py` 的 `NO_PUBLIC` 字典，写清原因和官网入口，页面会如实显示“暂未纳入自动采集”。
 
-## 二、删除或暂停一家事务所
+## 二、每周自动发现新来源（可少人工）
+
+系统每周一北京时间 09:00 由 GitHub Actions 自动运行 `scripts/discover.py`，探测 `data/discovery-sources.json` 里的候选来源，只做「发现与标记」，不自动抓岗位、不自动上线：
+
+- 可访问且疑似社招 / 可访问待确认 / 仅校招 / 不可访问 四类结果写入 `reports/discovery.md`；
+- 待人工验证的新候选会由 Actions 自动创建 Issue（标签 `discovery`）；
+- **新增来源必须先人工核对官方公开招聘渠道与数据接口，再按上一节步骤写采集器**，验证通过前不会写入任何岗位数据。
+
+要新增候选：编辑 `data/discovery-sources.json`，在 `sources` 里加一条（`id/name/category/url/status:"pending"`），push 后下次自动运行即会探测。来源已验证可上线时，把该条 `status` 改为 `verified` 并补上对应采集器。
+
+## 三、删除或暂停一家事务所
 
 - 暂停：在采集器里设 `enabled = False`，或在 `collect.py` 的 `NO_PUBLIC` 里补一条说明。
 - 彻底删除：删掉模块文件与 `MODULES` 中的引用。历史岗位会在后续两轮采集后自动转为 closed（若该所已不再采集，历史数据会保留，直到手工清理 `data/state.json`）。
 
-## 三、修改品牌
+## 四、修改品牌
 
 | 要改的地方 | 位置 |
 | --- | --- |
@@ -55,7 +65,7 @@ python3 scripts/collect.py --firms xinfirm              # 正式入库
 
 改完直接 push，Pages 自动重新部署。
 
-## 四、数据规则（改动前务必理解）
+## 五、数据规则（改动前务必理解）
 
 - `data/state.json` 是**唯一的事实来源**：记录每个岗位的 `first_seen / last_seen / miss_count / status`。不要手工编辑，尤其不要批量删 `jobs`。
 - `data/jobs.json` 是**派生文件**，可以随时由 `collect.py` 重新生成；不要手工改它，否则下一轮采集会被覆盖。
@@ -63,7 +73,7 @@ python3 scripts/collect.py --firms xinfirm              # 正式入库
 - 已下架岗位保留 120 天（`CLOSED_KEEP_DAYS`）后自动清理。
 - 首次运行会建立基线，当天“今日新增”显示 0；从第二天起按自然日统计新增。
 
-## 五、常见故障
+## 六、常见故障
 
 | 现象 | 排查 |
 | --- | --- |
@@ -74,7 +84,7 @@ python3 scripts/collect.py --firms xinfirm              # 正式入库
 | 页面统计与 JSON 不一致 | 浏览器缓存，强刷或等 5 分钟（`/data/*` 缓存 300 秒） |
 | Actions 跑成功但站点没变 | 检查 Actions 是否真的 `git push` 成功（写权限），以及 Pages 是否触发了新部署 |
 
-## 六、合规底线
+## 七、合规底线
 
 - 只抓官方公开页面，不绕过登录、验证码、付费墙；
 - 不复制其他招聘站的品牌、代码或数据库；

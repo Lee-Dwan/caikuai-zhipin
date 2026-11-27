@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "updated_at": "",
+  "note": "每周自动发现候选招聘来源；status 为 pending 表示待人工验证，verified 表示已接入采集器，blocked/only_campus/no_public 为不符合条件。新来源必须经过验证后才可新增采集器上线。",
+  "sources": [
+    {"id": "iguopin", "name": "国聘（央企国企招聘平台）", "category": "国企/央企", "url": "https://www.iguopin.com/", "status": "pending", "note": "官方央企国企招聘平台，覆盖财务、审计、税务岗位"},
+    {"id": "ciic", "name": "中智招聘", "category": "国企/上市公司", "url": "https://www.ciiczhaopin.com/", "status": "pending", "note": "中智旗下招聘平台，含财务审计岗位"},
+    {"id": "huaxing", "name": "华兴会计师事务所（广东）", "category": "会计师事务所", "url": "https://www.gdhxcpa.com.cn/", "status": "pending", "note": "区域性大型事务所，社招入口待验证"},
+    {"id": "xigema", "name": "希格玛会计师事务所", "category": "会计师事务所", "url": "https://www.xigema.com/", "status": "pending", "note": "全国百强事务所，社招入口待验证"},
+    {"id": "zqftcpa", "name": "中兴财光华会计师事务所", "category": "会计师事务所", "url": "https://www.zqftcpa.com/", "status": "pending", "note": "全国百强事务所，社招入口待验证"},
+    {"id": "jzlx", "name": "京洲联信税务师事务所", "category": "税务师事务所", "url": "https://www.jzlx.com.cn/", "status": "pending", "note": "税务师事务所，社招入口待验证"},
+    {"id": "zryh", "name": "中瑞岳华税务师事务所", "category": "税务师事务所", "url": "https://www.zryh.com.cn/", "status": "pending", "note": "税务师事务所，社招入口待验证"}
+  ]
+}
