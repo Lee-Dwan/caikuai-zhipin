@@ -1,0 +1,115 @@
+{
+ "at": "2026-11-27T13:45:29+08:00",
+ "attempted": 10,
+ "succeeded": 10,
+ "success_rate": 100.0,
+ "stats": {
+  "new": 0,
+  "updated": 76,
+  "unchanged": 1090,
+  "closed": 1,
+  "reopened": 0
+ },
+ "results": [
+  {
+   "firm_id": "bdo",
+   "firm_name": "立信",
+   "ok": true,
+   "count": 178,
+   "error": "",
+   "pages": 0,
+   "note": "",
+   "duration": 0.6
+  },
+  {
+   "firm_id": "dahua",
+   "firm_name": "大华",
+   "ok": true,
+   "count": 66,
+   "error": "",
+   "pages": 0,
+   "note": "",
+   "duration": 0.2
+  },
+  {
+   "firm_id": "ey",
+   "firm_name": "安永",
+   "ok": true,
+   "count": 81,
+   "error": "",
+   "pages": 0,
+   "note": "",
+   "duration": 26.7
+  },
+  {
+   "firm_id": "grantthornton",
+   "firm_name": "致同",
+   "ok": true,
+   "count": 88,
+   "error": "",
+   "pages": 0,
+   "note": "",
+   "duration": 0.4
+  },
+  {
+   "firm_id": "rongcheng",
+   "firm_name": "容诚",
+   "ok": true,
+   "count": 24,
+   "error": "",
+   "pages": 0,
+   "note": "",
+   "duration": 0.3
+  },
+  {
+   "firm_id": "shinewing",
+   "firm_name": "信永中和",
+   "ok": true,
+   "count": 218,
+   "error": "",
+   "pages": 0,
+   "note": "",
+   "duration": 11.2
+  },
+  {
+   "firm_id": "tianjian",
+   "firm_name": "天健",
+   "ok": true,
+   "count": 93,
+   "error": "",
+   "pages": 0,
+   "note": "",
+   "duration": 0.4
+  },
+  {
+   "firm_id": "tzcpa",
+   "firm_name": "天职国际",
+   "ok": true,
+   "count": 320,
+   "error": "",
+   "pages": 0,
+   "note": "",
+   "duration": 0.5
+  },
+  {
+   "firm_id": "zhcpa",
+   "firm_name": "中汇",
+   "ok": true,
+   "count": 76,
+   "error": "",
+   "pages": 0,
+   "note": "",
+   "duration": 0.3
+  },
+  {
+   "firm_id": "zszh",
+   "firm_name": "中审众环",
+   "ok": true,
+   "count": 22,
+   "error": "",
+   "pages": 0,
+   "note": "",
+   "duration": 0.3
+  }
+ ]
+}

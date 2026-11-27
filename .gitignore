@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 本地缓存（信永中和详情缓存，避免重复请求）
+data/cache/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 说明：data/jobs.json、state.json 需要提交到仓库，供 Cloudflare Pages 直接读取

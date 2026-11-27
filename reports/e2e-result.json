@@ -1,0 +1,94 @@
+{
+ "at": "2026-11-27 13:47:01",
+ "base": "http://127.0.0.1:8099/",
+ "passed": 17,
+ "total": 17,
+ "ok": true,
+ "checks": [
+  {
+   "name": "首页统计已填充",
+   "ok": true,
+   "detail": "['1,126', '10', '0', '11-27 13:45']"
+  },
+  {
+   "name": "首页渲染岗位卡片",
+   "ok": true,
+   "detail": "30 张"
+  },
+  {
+   "name": "关键词搜索生效",
+   "ok": true,
+   "detail": "30 条"
+  },
+  {
+   "name": "省份选择后城市联动",
+   "ok": true,
+   "detail": "['', '南京', '苏州', '无锡']"
+  },
+  {
+   "name": "城市筛选生效",
+   "ok": true,
+   "detail": "30 条"
+  },
+  {
+   "name": "筛选条件写入 URL",
+   "ok": true,
+   "detail": "http://127.0.0.1:8099/?prov=%E6%B1%9F%E8%8B%8F&city=%E5%8D%97%E4%BA%AC"
+  },
+  {
+   "name": "事务所筛选生效",
+   "ok": true,
+   "detail": "2 条（南京+天健）"
+  },
+  {
+   "name": "证书筛选生效",
+   "ok": true,
+   "detail": "CPA 30 条"
+  },
+  {
+   "name": "近 30 天筛选生效",
+   "ok": true,
+   "detail": "30 条"
+  },
+  {
+   "name": "排序切换生效",
+   "ok": true,
+   "detail": "http://127.0.0.1:8099/?time=30&sort=firm"
+  },
+  {
+   "name": "详情抽屉打开",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "详情含正文",
+   "ok": true,
+   "detail": "511 字"
+  },
+  {
+   "name": "投递链接为官方 http 链接",
+   "ok": true,
+   "detail": "https://job.shinewing.com/job/detail?id=499"
+  },
+  {
+   "name": "筛选链接可复制并带参数",
+   "ok": true,
+   "detail": "http://127.0.0.1:8099/?time=7"
+  },
+  {
+   "name": "控制台无 JS 错误",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "移动端无横向溢出",
+   "ok": true,
+   "detail": "溢出 0px"
+  },
+  {
+   "name": "移动端筛选面板可展开",
+   "ok": true,
+   "detail": ""
+  }
+ ]
+}

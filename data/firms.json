@@ -1,0 +1,115 @@
+{
+ "generated_at": "2026-11-27T13:45:29+08:00",
+ "firms": [
+  {
+   "firm_id": "bdo",
+   "name": "立信",
+   "source_name": "立信官方招聘门户（bdochina.zhiye.com）",
+   "homepage": "https://bdochina.zhiye.com/social",
+   "enabled": true
+  },
+  {
+   "firm_id": "dahua",
+   "name": "大华",
+   "source_name": "大华会计师事务所官方招聘门户（zhaopin.dahua-cpa.com）",
+   "homepage": "https://zhaopin.dahua-cpa.com/social/jobs",
+   "enabled": true
+  },
+  {
+   "firm_id": "deloitte",
+   "name": "德勤",
+   "source_name": "官方招聘页面（无公开岗位列表）",
+   "homepage": "https://ehjobs.deloitte.com.cn/SU649e304a6a9f0ef690533e9a/pb/index.html",
+   "enabled": false,
+   "reason": "官方招聘门户为 SuccessFactors/wecruit，需登录交互，未开放公开岗位列表接口"
+  },
+  {
+   "firm_id": "ey",
+   "name": "安永",
+   "source_name": "安永官方招聘站（careers.ey.com）",
+   "homepage": "https://careers.ey.com/ey/search/?locationsearch=China",
+   "enabled": true
+  },
+  {
+   "firm_id": "grantthornton",
+   "name": "致同",
+   "source_name": "致同官方招聘门户（grantthornton.zhiye.com）",
+   "homepage": "https://grantthornton.zhiye.com/social",
+   "enabled": true
+  },
+  {
+   "firm_id": "kpmg",
+   "name": "毕马威",
+   "source_name": "官方招聘页面（无公开岗位列表）",
+   "homepage": "https://kpmg.com/cn/zh/careers/experienced-hires.html",
+   "enabled": false,
+   "reason": "官网招聘页无岗位列表与公开接口（job-search 页面 404）"
+  },
+  {
+   "firm_id": "pwc",
+   "name": "普华永道",
+   "source_name": "官方招聘页面（无公开岗位列表）",
+   "homepage": "https://www.pwccn.com/zh/careers/experienced-jobs.html",
+   "enabled": false,
+   "reason": "官网(Workday)存在频率限制，CX 接口持续返回 429，无法稳定自动采集；仅保留官网入口"
+  },
+  {
+   "firm_id": "rongcheng",
+   "name": "容诚",
+   "source_name": "容诚官方招聘门户（careers.rccpa.com.cn）",
+   "homepage": "https://careers.rccpa.com.cn/#/home",
+   "enabled": true
+  },
+  {
+   "firm_id": "shinewing",
+   "name": "信永中和",
+   "source_name": "信永中和官方招聘系统（job.shinewing.com）",
+   "homepage": "https://job.shinewing.com/job/social",
+   "enabled": true
+  },
+  {
+   "firm_id": "suyajc",
+   "name": "苏亚金诚",
+   "source_name": "官方招聘页面（无公开岗位列表）",
+   "homepage": "https://syjc.com/cpycsp.html",
+   "enabled": false,
+   "reason": "官网仅有招聘简介与邮箱投递方式，无结构化岗位列表"
+  },
+  {
+   "firm_id": "tianheng",
+   "name": "天衡",
+   "source_name": "官方招聘页面（无公开岗位列表）",
+   "homepage": "https://www.jscpa.com.cn/join-us/",
+   "enabled": false,
+   "reason": "官网 join-us 栏目仅有校园招聘信息，暂无公开社招岗位"
+  },
+  {
+   "firm_id": "tianjian",
+   "name": "天健",
+   "source_name": "天健官方招聘系统（zhaopin.pccpa.cn）",
+   "homepage": "https://zhaopin.pccpa.cn/hr/recruit/society",
+   "enabled": true
+  },
+  {
+   "firm_id": "tzcpa",
+   "name": "天职国际",
+   "source_name": "天职国际官方招聘门户（tzcpa.zhiye.com）",
+   "homepage": "https://tzcpa.zhiye.com/social",
+   "enabled": true
+  },
+  {
+   "firm_id": "zhcpa",
+   "name": "中汇",
+   "source_name": "中汇官方招聘门户（zhcpa.zhiye.com）",
+   "homepage": "https://zhcpa.zhiye.com/social",
+   "enabled": true
+  },
+  {
+   "firm_id": "zszh",
+   "name": "中审众环",
+   "source_name": "中审众环官方招聘门户（job.zszhcpa.cn）",
+   "homepage": "https://job.zszhcpa.cn/jobs",
+   "enabled": true
+  }
+ ]
+}

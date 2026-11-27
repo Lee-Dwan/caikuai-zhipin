@@ -1,0 +1,175 @@
+{
+ "generated_at": "2026-11-27T13:45:29+08:00",
+ "active_jobs": 1126,
+ "firm_count": 10,
+ "today_new": 0,
+ "covered_firms": [
+  "中汇",
+  "安永",
+  "大华",
+  "中审众环",
+  "信永中和",
+  "天健",
+  "天职国际",
+  "立信",
+  "容诚",
+  "致同"
+ ],
+ "no_public_jobs": [],
+ "failed_firms": [],
+ "firms_status": [
+  {
+   "firm_id": "zszh",
+   "name": "中审众环",
+   "status": "ok",
+   "count": 22,
+   "error": "",
+   "note": "",
+   "at": "2026-11-27T13:45:29+08:00",
+   "duration": 0.3
+  },
+  {
+   "firm_id": "zhcpa",
+   "name": "中汇",
+   "status": "ok",
+   "count": 76,
+   "error": "",
+   "note": "",
+   "at": "2026-11-27T13:45:29+08:00",
+   "duration": 0.3
+  },
+  {
+   "firm_id": "shinewing",
+   "name": "信永中和",
+   "status": "ok",
+   "count": 218,
+   "error": "",
+   "note": "",
+   "at": "2026-11-27T13:45:29+08:00",
+   "duration": 11.2
+  },
+  {
+   "firm_id": "dahua",
+   "name": "大华",
+   "status": "ok",
+   "count": 66,
+   "error": "",
+   "note": "",
+   "at": "2026-11-27T13:45:29+08:00",
+   "duration": 0.2
+  },
+  {
+   "firm_id": "tianjian",
+   "name": "天健",
+   "status": "ok",
+   "count": 93,
+   "error": "",
+   "note": "",
+   "at": "2026-11-27T13:45:29+08:00",
+   "duration": 0.4
+  },
+  {
+   "firm_id": "tzcpa",
+   "name": "天职国际",
+   "status": "ok",
+   "count": 320,
+   "error": "",
+   "note": "",
+   "at": "2026-11-27T13:45:29+08:00",
+   "duration": 0.5
+  },
+  {
+   "firm_id": "tianheng",
+   "name": "天衡",
+   "status": "not_collected",
+   "count": 0,
+   "error": "",
+   "note": "官网 join-us 栏目仅有校园招聘信息，暂无公开社招岗位",
+   "at": "2026-11-27T13:45:29+08:00"
+  },
+  {
+   "firm_id": "ey",
+   "name": "安永",
+   "status": "ok",
+   "count": 81,
+   "error": "",
+   "note": "",
+   "at": "2026-11-27T13:45:29+08:00",
+   "duration": 26.7
+  },
+  {
+   "firm_id": "rongcheng",
+   "name": "容诚",
+   "status": "ok",
+   "count": 24,
+   "error": "",
+   "note": "",
+   "at": "2026-11-27T13:45:29+08:00",
+   "duration": 0.3
+  },
+  {
+   "firm_id": "deloitte",
+   "name": "德勤",
+   "status": "not_collected",
+   "count": 0,
+   "error": "",
+   "note": "官方招聘门户为 SuccessFactors/wecruit，需登录交互，未开放公开岗位列表接口",
+   "at": "2026-11-27T13:45:29+08:00"
+  },
+  {
+   "firm_id": "pwc",
+   "name": "普华永道",
+   "status": "not_collected",
+   "count": 0,
+   "error": "",
+   "note": "官网(Workday)存在频率限制，CX 接口持续返回 429，无法稳定自动采集；仅保留官网入口",
+   "at": "2026-11-27T13:45:29+08:00"
+  },
+  {
+   "firm_id": "kpmg",
+   "name": "毕马威",
+   "status": "not_collected",
+   "count": 0,
+   "error": "",
+   "note": "官网招聘页无岗位列表与公开接口（job-search 页面 404）",
+   "at": "2026-11-27T13:45:29+08:00"
+  },
+  {
+   "firm_id": "bdo",
+   "name": "立信",
+   "status": "ok",
+   "count": 178,
+   "error": "",
+   "note": "",
+   "at": "2026-11-27T13:45:29+08:00",
+   "duration": 0.6
+  },
+  {
+   "firm_id": "grantthornton",
+   "name": "致同",
+   "status": "ok",
+   "count": 88,
+   "error": "",
+   "note": "",
+   "at": "2026-11-27T13:45:29+08:00",
+   "duration": 0.4
+  },
+  {
+   "firm_id": "suyajc",
+   "name": "苏亚金诚",
+   "status": "not_collected",
+   "count": 0,
+   "error": "",
+   "note": "官网仅有招聘简介与邮箱投递方式，无结构化岗位列表",
+   "at": "2026-11-27T13:45:29+08:00"
+  }
+ ],
+ "baseline_at": "2026-11-27",
+ "source_policy": "仅采集事务所官网/官方招聘系统公开发布的社招岗位",
+ "collection": {
+  "attempted": 10,
+  "succeeded": 10,
+  "success_rate": 100.0,
+  "at": "2026-11-27T13:45:29+08:00"
+ }
+}
