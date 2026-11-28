@@ -1,14 +1,14 @@
 {
- "at": "2026-11-27T15:52:06+08:00",
+ "at": "2026-11-28T08:50:57+08:00",
  "attempted": 11,
- "succeeded": 11,
- "success_rate": 100.0,
+ "succeeded": 10,
+ "success_rate": 90.9,
  "stats": {
-  "new": 43,
-  "updated": 1072,
-  "unchanged": 105,
-  "closed": 1,
-  "reopened": 0
+  "new": 2,
+  "updated": 33,
+  "unchanged": 1162,
+  "closed": 0,
+  "reopened": 1
  },
  "results": [
   {
@@ -19,7 +19,7 @@
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 0.9
+   "duration": 2.6
   },
   {
    "firm_id": "dahua",
@@ -29,7 +29,7 @@
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 0.3
+   "duration": 1.8
   },
   {
    "firm_id": "daxin",
@@ -39,7 +39,7 @@
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 2.2
+   "duration": 1.6
   },
   {
    "firm_id": "ey",
@@ -49,7 +49,7 @@
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 11.1
+   "duration": 84.3
   },
   {
    "firm_id": "grantthornton",
@@ -59,17 +59,17 @@
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 0.3
+   "duration": 1.7
   },
   {
    "firm_id": "rongcheng",
    "firm_name": "容诚",
-   "ok": true,
-   "count": 24,
-   "error": "",
+   "ok": false,
+   "count": 0,
+   "error": "RuntimeError: HTTPSConnectionPool(host='careers.rccpa.com.cn', port=443): Max retries exceeded with url: /eRecruit/recruit/position/getIndexPositions?type=2&titleSite= (Caused by ConnectTimeoutError(<HTTPSConnection(host='careers.rccpa.com.cn', port=443) at 0x76f0fefbf9b0>, 'Connection to careers.rccpa.com.cn timed out. (connect timeout=25)'))",
    "pages": 0,
    "note": "",
-   "duration": 0.3
+   "duration": 160.5
   },
   {
    "firm_id": "shinewing",
@@ -79,17 +79,17 @@
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 12.2
+   "duration": 106.6
   },
   {
    "firm_id": "tianjian",
    "firm_name": "天健",
    "ok": true,
-   "count": 93,
+   "count": 94,
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 0.4
+   "duration": 1.6
   },
   {
    "firm_id": "tzcpa",
@@ -99,7 +99,7 @@
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 3.1
+   "duration": 5.6
   },
   {
    "firm_id": "zhcpa",
@@ -109,7 +109,7 @@
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 0.5
+   "duration": 1.6
   },
   {
    "firm_id": "zszh",
@@ -119,7 +119,7 @@
    "error": "",
    "pages": 0,
    "note": "",
-   "duration": 0.5
+   "duration": 2.1
   }
  ]
 }
