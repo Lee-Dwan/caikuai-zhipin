@@ -1,0 +1,108 @@
+{
+ "generated_at": "2026-11-28T17:14:07+08:00",
+ "active_jobs": 253,
+ "firm_count": 9,
+ "today_new": 0,
+ "covered_firms": [
+  "立信",
+  "中汇",
+  "致同",
+  "天健",
+  "中审众环",
+  "信永中和",
+  "大华",
+  "天职国际",
+  "大信"
+ ],
+ "failed_firms": [],
+ "firms_status": [
+  {
+   "firm_id": "bdo",
+   "name": "立信",
+   "status": "ok",
+   "count": 24,
+   "error": "",
+   "note": "",
+   "at": "2026-11-28T17:14:07+08:00"
+  },
+  {
+   "firm_id": "dahua",
+   "name": "大华",
+   "status": "ok",
+   "count": 19,
+   "error": "",
+   "note": "",
+   "at": "2026-11-28T17:14:07+08:00"
+  },
+  {
+   "firm_id": "daxin",
+   "name": "大信",
+   "status": "ok",
+   "count": 8,
+   "error": "",
+   "note": "",
+   "at": "2026-11-28T17:14:07+08:00"
+  },
+  {
+   "firm_id": "grantthornton",
+   "name": "致同",
+   "status": "ok",
+   "count": 10,
+   "error": "",
+   "note": "",
+   "at": "2026-11-28T17:14:07+08:00"
+  },
+  {
+   "firm_id": "shinewing",
+   "name": "信永中和",
+   "status": "ok",
+   "count": 67,
+   "error": "",
+   "note": "",
+   "at": "2026-11-28T17:14:07+08:00"
+  },
+  {
+   "firm_id": "tianjian",
+   "name": "天健",
+   "status": "ok",
+   "count": 25,
+   "error": "",
+   "note": "",
+   "at": "2026-11-28T17:14:07+08:00"
+  },
+  {
+   "firm_id": "tzcpa",
+   "name": "天职国际",
+   "status": "ok",
+   "count": 53,
+   "error": "",
+   "note": "",
+   "at": "2026-11-28T17:14:07+08:00"
+  },
+  {
+   "firm_id": "zhcpa",
+   "name": "中汇",
+   "status": "ok",
+   "count": 9,
+   "error": "",
+   "note": "",
+   "at": "2026-11-28T17:14:07+08:00"
+  },
+  {
+   "firm_id": "zszh",
+   "name": "中审众环",
+   "status": "ok",
+   "count": 38,
+   "error": "",
+   "note": "",
+   "at": "2026-11-28T17:14:07+08:00"
+  }
+ ],
+ "source_policy": "仅收录会计师事务所/税务师事务所/资产评估机构官方公开招聘渠道发布的实习岗位；来源经核验，不收录收费实习与付费内推",
+ "collection": {
+  "attempted": 9,
+  "succeeded": 9,
+  "success_rate": 100.0,
+  "at": "2026-11-28T17:14:07+08:00"
+ }
+}

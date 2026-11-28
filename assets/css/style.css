@@ -243,3 +243,19 @@ select:focus{outline:none;border-color:var(--brand)}
   .filter-ops{grid-column:1/-1;border-top:1px dashed var(--line);margin-top:2px;padding-top:13px}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none !important;transition:none !important}}
+
+/* ===== 确实在审 · 实习招聘模块 ===== */
+.mode-tabs{display:flex;gap:4px;padding:10px 0 0}
+.mode-tabs a{flex:1;max-width:180px;text-align:center;padding:9px 0;font-size:14px;font-weight:600;color:var(--muted);border:1px solid var(--line);border-bottom:0;border-radius:10px 10px 0 0;background:#f2f0eb;text-decoration:none}
+.mode-tabs a.on{background:var(--card);color:var(--brand);border-color:var(--line-2);font-weight:700}
+.deadline-dot{display:inline-block;margin-left:7px;background:#c62828;color:#fff;font-size:10px;font-weight:700;border-radius:5px;padding:2px 6px;vertical-align:1px}
+.job-card.hot{border-color:#f0c9a8;background:linear-gradient(180deg,#fdf6ef,var(--card))}
+.job-card.hot::before{background:linear-gradient(#c94f38,#d99a2b)}
+.tag.edu{background:#e6f4ef;color:#1f7a5c}
+.tag.pay{background:#fdeee3;color:#b0561f}
+.sheet-facts{display:grid;grid-template-columns:1fr 1fr;gap:7px 14px;margin-bottom:6px}
+.fact{display:flex;flex-direction:column;background:#f6f4ef;border-radius:8px;padding:7px 10px}
+.fact-k{font-size:11px;color:var(--muted-2)}
+.fact-v{font-size:13px;color:var(--ink);font-weight:500;margin-top:2px}
+.fact-v .muted{color:var(--muted-2);font-weight:400}
+@media (max-width:640px){.mode-tabs a{max-width:none}.sheet-facts{grid-template-columns:1fr 1fr}}

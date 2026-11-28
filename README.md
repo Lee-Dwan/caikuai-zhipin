@@ -1,6 +1,6 @@
 # 确实在审 · 财会行业招聘信息查询
 
-只收录**社会招聘**（不含校园招聘、实习）的会计师事务所岗位聚合站。纯静态站点，零服务器、零数据库、零付费 API，也是「确实在审」个人品牌的长期工具平台。
+只收录**社会招聘**（不含校园招聘、实习）的会计师事务所岗位聚合站；另有独立的**实习招聘**模块（`intern.html`）。纯静态站点，零服务器、零数据库、零付费 API，也是「确实在审」个人品牌的长期工具平台。
 
 - 前端：原生 HTML / CSS / JavaScript（无框架、无构建步骤）
 - 数据：`data/jobs.json`（静态 JSON）+ `assets/js/data-fallback.js`（本地双击预览兜底）
@@ -27,35 +27,39 @@
 - 公众号 / 小红书 / 抖音二维码展示位
 - 移动端优先，桌面端自适应
 - 不设登录注册，不收集简历与任何个人信息
+- **实习招聘模块**（`intern.html`）：按城市 / 事务所 / 实习类型 / 学历 / 实习时间 / 薪酬 / 发布时间筛选，突出年审实习、即将截止、近期新增；真实实习数据，缺失字段标注「未披露」
 
 ## 目录结构
 
 ```
 .
-├── index.html                  # 单页站点
+├── index.html                  # 社会招聘单页站点
+├── intern.html                 # 实习招聘单页站点
 ├── assets/
 │   ├── css/style.css           # 全部样式（移动优先）
-│   └── js/app.js               # 筛选 / 搜索 / 详情 / 分享逻辑
-│   └── js/data-fallback.js     # 由采集脚本生成，离线预览用
+│   ├── js/app.js               # 社会招聘筛选 / 搜索 / 详情 / 分享逻辑
+│   ├── js/app_intern.js        # 实习招聘筛选 / 搜索 / 详情 / 分享逻辑
+│   └── js/data-fallback*.js    # 由采集脚本生成，离线预览用
 ├── data/
-│   ├── jobs.json               # 站点读取的岗位数据（含 meta）
-│   ├── meta.json               # 仅元数据（统计、采集状态）
-│   ├── firms.json              # 数据源清单与说明
-│   ├── state.json              # 采集状态（去重 / 新增 / 下架判定依据）
-│   └── collect-report.json     # 最近一次采集的结构化报告
-├── reports/latest.md           # 最近一次采集的可读报告
+│   ├── jobs.json               # 社会招聘数据（含 meta）
+│   ├── meta.json               # 社会招聘元数据
+│   ├── firms.json              # 社会招聘数据源清单
+│   ├── state.json              # 社会招聘采集状态
+│   ├── collect-report.json     # 社会招聘采集报告
+│   └── intern/                 # 实习招聘数据（jobs/meta/firms/state/collect-report/discovery-*）
+├── reports/latest.md           # 最近一次社会招聘采集报告
+├── reports/INTERN-MAINTENANCE.md
 ├── scripts/
-│   ├── collect.py              # 采集入口
+│   ├── collect.py              # 社会招聘采集入口
+│   ├── collect_intern.py       # 实习采集入口
 │   ├── normalize.py            # 城市→省份、类别、证书、摘要、ID
-│   ├── store.py                # 去重 / 新增 / 下架判定 / 输出
+│   ├── store.py                # 社会招聘去重 / 下架 / 输出
+│   ├── intern_collectors.py    # 实习采集器集合
+│   ├── intern_store.py         # 实习去重 / 下架 / 输出
+│   ├── discover.py             # 社会招聘来源发现
+│   ├── discover_intern.py      # 实习来源发现
 │   ├── serve.py                # 本地预览服务器
-│   └── collectors/
-│       ├── base.py             # 基类、注册表、重试
-│       ├── italent.py          # 北森门户（中审众环/中汇/天职国际/致同/立信/大华/大信）
-│       ├── tianjian.py         # 天健
-│       ├── shinewing.py        # 信永中和
-│       ├── rongcheng.py        # 容诚
-│       └── ey.py               # 安永
+│   └── collectors/             # 社会招聘采集器
 ├── .github/workflows/collect.yml
 ├── _headers                    # Cloudflare Pages 响应头
 ├── requirements.txt

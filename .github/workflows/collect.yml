@@ -38,6 +38,9 @@ jobs:
       - name: 执行采集
         run: python scripts/collect.py
 
+      - name: 执行实习采集
+        run: python scripts/collect_intern.py
+
       - name: 采集结果摘要
         if: always()
         run: |
@@ -54,11 +57,19 @@ jobs:
           if not os.path.exists(p):
               print("::error::未生成采集报告，任务中断"); sys.exit(1)
           r = json.load(open(p, encoding="utf-8"))
-          print(f"采集成功率：{r['succeeded']}/{r['attempted']}（{r['success_rate']}%）")
+          print(f"社招采集成功率：{r['succeeded']}/{r['attempted']}（{r['success_rate']}%）")
           if r["succeeded"] == 0:
               print("::error::全部数据源采集失败，已保留历史上一次数据，请检查网络或接口变更"); sys.exit(1)
           if r["success_rate"] < 60:
               print(f"::error::采集成功率仅 {r['success_rate']}%，低于 60% 告警阈值，请查看报告"); sys.exit(1)
+          p2 = "data/intern/collect-report.json"
+          if os.path.exists(p2):
+              r2 = json.load(open(p2, encoding="utf-8"))
+              print(f"实习采集成功率：{r2['succeeded']}/{r2['attempted']}（{r2['success_rate']}%）")
+              if r2["succeeded"] == 0:
+                  print("::error::全部实习数据源采集失败，已保留历史数据，请检查"); sys.exit(1)
+              if r2["success_rate"] < 60:
+                  print(f"::error::实习采集成功率仅 {r2['success_rate']}%，低于 60% 告警阈值"); sys.exit(1)
           print("采集健康检查通过")
           PY
 
@@ -68,7 +79,9 @@ jobs:
           git config user.email "job-bot@users.noreply.github.com"
           git add data/jobs.json data/meta.json data/firms.json \
                   data/state.json data/collect-report.json \
-                  assets/js/data-fallback.js reports/latest.md
+                  data/intern/jobs.json data/intern/meta.json data/intern/firms.json \
+                  data/intern/state.json data/intern/collect-report.json \
+                  assets/js/data-fallback.js assets/js/data-fallback-intern.js reports/latest.md
           if git diff --staged --quiet; then
             echo "数据无变化，跳过提交"
           else
@@ -80,6 +93,7 @@ jobs:
         if: always()
         run: |
           curl -sS --max-time 20 "https://api.indexnow.org/indexnow?url=https%3A%2F%2FLee-Dwan.github.io%2Fcaikuai-zhipin%2F&key=71214d107d773df6375676d4d3f0777f" >/dev/null 2>&1 || true
+          curl -sS --max-time 20 "https://api.indexnow.org/indexnow?url=https%3A%2F%2FLee-Dwan.github.io%2Fcaikuai-zhipin%2Fintern.html&key=71214d107d773df6375676d4d3f0777f" >/dev/null 2>&1 || true
 
       - name: 失败通知（自动创建 Issue）
         if: failure()

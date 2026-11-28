@@ -1,0 +1,12 @@
+[
+ {
+  "id": "ncss",
+  "name": "国家大学生就业服务平台",
+  "category": "官方就业平台",
+  "url": "https://www.ncss.cn/",
+  "note": "实习岗位公开搜索接口存在反爬校验，需人工核验",
+  "status": "reachable",
+  "last_check": "2026-11-29T01:12:57+08:00",
+  "last_note": 200
+ }
+]

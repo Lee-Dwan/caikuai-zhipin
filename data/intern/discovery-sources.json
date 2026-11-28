@@ -1,0 +1,72 @@
+[
+ {
+  "id": "ncss",
+  "name": "国家大学生就业服务平台",
+  "category": "官方就业平台",
+  "url": "https://www.ncss.cn/",
+  "note": "实习岗位公开搜索接口存在反爬校验，需人工核验",
+  "status": "reachable",
+  "last_check": "2026-11-29T01:12:57+08:00",
+  "last_note": 200
+ },
+ {
+  "id": "cicpa",
+  "name": "中国注册会计师协会",
+  "category": "行业协会",
+  "url": "https://www.cicpa.org.cn/",
+  "note": "注协官网/各地注协实习信息，需逐站核验",
+  "status": "reachable",
+  "last_check": "2026-11-29T01:12:57+08:00",
+  "last_note": 200
+ },
+ {
+  "id": "cctaa",
+  "name": "中国注册税务师协会",
+  "category": "行业协会",
+  "url": "https://www.cctaa.cn/",
+  "note": "税务师事务所实习信息，需逐站核验",
+  "status": "reachable",
+  "last_check": "2026-11-29T01:12:58+08:00",
+  "last_note": 200
+ },
+ {
+  "id": "cas",
+  "name": "中国资产评估协会",
+  "category": "行业协会",
+  "url": "https://www.cas.org.cn/",
+  "note": "资产评估机构实习信息，需逐站核验",
+  "status": "reachable",
+  "last_check": "2026-11-29T01:12:58+08:00",
+  "last_note": 200
+ },
+ {
+  "id": "shanghai-cicpa",
+  "name": "上海市注册会计师协会",
+  "category": "地方注协",
+  "url": "https://www.shcpa.org.cn/",
+  "note": "地方注协实习/招聘信息，需逐站核验",
+  "status": "reachable",
+  "last_check": "2026-11-29T01:12:59+08:00",
+  "last_note": 200
+ },
+ {
+  "id": "jiangsu-cicpa",
+  "name": "江苏省注册会计师协会",
+  "category": "地方注协",
+  "url": "http://www.jscpa.org.cn/",
+  "note": "地方注协实习/招聘信息，需逐站核验",
+  "status": "http_502",
+  "last_check": "2026-11-29T01:12:59+08:00",
+  "last_note": 502
+ },
+ {
+  "id": "guangdong-cicpa",
+  "name": "广东省注册会计师协会",
+  "category": "地方注协",
+  "url": "http://www.gdicpa.org.cn/",
+  "note": "地方注协实习/招聘信息，需逐站核验",
+  "status": "reachable",
+  "last_check": "2026-11-29T01:12:59+08:00",
+  "last_note": 200
+ }
+]

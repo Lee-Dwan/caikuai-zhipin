@@ -1,0 +1,68 @@
+{
+ "generated_at": "2026-11-28T17:14:07+08:00",
+ "firms": [
+  {
+   "firm_id": "bdo",
+   "name": "立信",
+   "source_name": "立信官方招聘门户（bdochina.zhiye.com）",
+   "homepage": "https://bdochina.zhiye.com/social",
+   "enabled": true
+  },
+  {
+   "firm_id": "dahua",
+   "name": "大华",
+   "source_name": "大华官方招聘门户（zhaopin.dahua-cpa.com）",
+   "homepage": "https://zhaopin.dahua-cpa.com/social/jobs",
+   "enabled": true
+  },
+  {
+   "firm_id": "daxin",
+   "name": "大信",
+   "source_name": "大信官方招聘门户（daxincpa.zhiye.com）",
+   "homepage": "https://daxincpa.zhiye.com/social",
+   "enabled": true
+  },
+  {
+   "firm_id": "grantthornton",
+   "name": "致同",
+   "source_name": "致同官方招聘门户（grantthornton.zhiye.com）",
+   "homepage": "https://grantthornton.zhiye.com/social",
+   "enabled": true
+  },
+  {
+   "firm_id": "shinewing",
+   "name": "信永中和",
+   "source_name": "信永中和官方招聘系统（job.shinewing.com）",
+   "homepage": "https://job.shinewing.com/job/social",
+   "enabled": true
+  },
+  {
+   "firm_id": "tianjian",
+   "name": "天健",
+   "source_name": "天健官方招聘系统（zhaopin.pccpa.cn）",
+   "homepage": "https://zhaopin.pccpa.cn/hr/recruit/society",
+   "enabled": true
+  },
+  {
+   "firm_id": "tzcpa",
+   "name": "天职国际",
+   "source_name": "天职国际官方招聘门户（tzcpa.zhiye.com）",
+   "homepage": "https://tzcpa.zhiye.com/social",
+   "enabled": true
+  },
+  {
+   "firm_id": "zhcpa",
+   "name": "中汇",
+   "source_name": "中汇官方招聘门户（zhcpa.zhiye.com）",
+   "homepage": "https://zhcpa.zhiye.com/social",
+   "enabled": true
+  },
+  {
+   "firm_id": "zszh",
+   "name": "中审众环",
+   "source_name": "中审众环官方招聘门户（job.zszhcpa.cn）",
+   "homepage": "https://job.zszhcpa.cn/jobs",
+   "enabled": true
+  }
+ ]
+}
